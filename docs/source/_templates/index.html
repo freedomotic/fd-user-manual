@@ -1,0 +1,75 @@
+{% extends "layout.html" %}
+{% set title = _('Overview') %}
+{% block body %}
+  <h1>{{ _('Freedomotic User Manual') }}</h1>
+
+  <br>
+  <table class="contentstable" align="center" style="margin-left: 30px">
+  <tbody>
+  <tr>
+    <td width="50%" valign="top">
+      <p class="biglink"><div class="section-title">{%trans%}The project{%endtrans%}</div>
+         - <a class="linkdescr" href="{{ pathto("the-project/what-is-freedomotic") }}">{%trans%}What is Freedomotic?{%endtrans%}</a><br/>
+         - <a class="linkdescr" href="{{ pathto("the-project/project-history") }}">{%trans%}The project history{%endtrans%}</a><br/>
+         - <a class="linkdescr" href="{{ pathto("the-project/team") }}">{%trans%}Team{%endtrans%}</a><br/>
+         - <a class="linkdescr" href="{{ pathto("the-project/features") }}">{%trans%}Features{%endtrans%}</a><br/>
+     </p>   
+      <p class="biglink"><div class="section-title">{%trans%}Who is using Freedomotic?{%endtrans%}</div>
+         - <a class="linkdescr" href="{{ pathto("who-is-using-freedomotic/academic-papers") }}">{%trans%}Academic papers & thesis{%endtrans%}</a><br/>
+     </p> 
+     <p class="biglink"><div class="section-title">{%trans%}Use cases{%endtrans%}</div>
+         - <a class="linkdescr" href="{{ pathto("use-cases/what-you-can-do-with-freedomotic") }}">{%trans%}What you can do with Freedomotic{%endtrans%}</a><br/>
+         - <a class="linkdescr" href="{{ pathto("use-cases/pass-project") }}">{%trans%}PAss Private Assisted House{%endtrans%}</a><br/>
+         - <a class="linkdescr" href="{{ pathto("use-cases/ubuntu-snappy") }}">{%trans%}Ubuntu Snappy{%endtrans%}</a><br/>
+     </p> 
+     <p class="biglink"><div class="section-title">{%trans%}Architecture{%endtrans%}</div>
+         - <a class="linkdescr" href="{{ pathto("architecture/architecture") }}">{%trans%}The framework{%endtrans%}</a><br/>
+         - <a class="linkdescr" href="{{ pathto("architecture/messaging-system") }}">{%trans%}Messaging system{%endtrans%}</a><br/>
+      </p>    
+      <p class="biglink"><div class="section-title">{%trans%}Getting started{%endtrans%}</div>
+         - <a class="linkdescr" href="{{ pathto("getting-started/requirements") }}">{%trans%}Requirements{%endtrans%}</a><br/>
+         - <a class="linkdescr" href="{{ pathto("getting-started/download") }}">{%trans%}Download{%endtrans%}</a><br/>
+         - <a class="linkdescr" href="{{ pathto("getting-started/installation") }}">{%trans%}Installation{%endtrans%}</a><br/>
+         - <a class="linkdescr" href="{{ pathto("getting-started/basic-configuration") }}">{%trans%}Basic configuration{%endtrans%}</a><br/>
+      </p>  
+       <p class="biglink"><div class="section-title">{%trans%}Advanced features{%endtrans%}</div>
+         - <a class="linkdescr" href="{{ pathto("advanced-features/p2p") }}">{%trans%}P2P{%endtrans%}</a><br/>
+       
+      </p>  
+   
+    </td>
+    <td width="50%" valign="top">
+      <p class="biglink"><div class="section-title">{%trans%}Plugins{%endtrans%}</div>
+         - <a class="linkdescr" href="{{ pathto("plugins/what-is-a-plugin") }}">{%trans%}What is a plugin?{%endtrans%}</a><br/>
+         - <a class="linkdescr" href="{{ pathto("plugins/install-from-marketplace") }}">{%trans%}Install from marketplace{%endtrans%}</a><br/>
+      </p>
+     <p class="biglink"><div class="section-title">{%trans%}Frontend clients{%endtrans%}</div>
+         - <a class="linkdescr" href="{{ pathto("frontends/jfrontend") }}">{%trans%}Java frontend{%endtrans%}</a><br/>
+         - <a class="linkdescr" href="{{ pathto("frontends/polymer-webclient") }}">{%trans%}Polymer web client{%endtrans%}</a><br/> 
+     </p>    
+     <p class="biglink"><div class="section-title">{%trans%}Try a demo online{%endtrans%}</div>
+        - <a class="linkdescr" href="{{ pathto("demo/demo-api") }}">{%trans%}APIs{%endtrans%}</a><br/>
+        - <a class="linkdescr" href="{{ pathto("demo/demo-webclient") }}">{%trans%}Web client{%endtrans%}</a><br/>
+      </p>
+      <p class="biglink"><div class="section-title">{%trans%}Need help?{%endtrans%}</div>
+         - <a class="linkdescr" href="{{ pathto("need-help/logging") }}">{%trans%}Logging{%endtrans%}</a><br/>
+         - <a class="linkdescr" href="{{ pathto("need-help/troubleshooting") }}">{%trans%}Troubleshooting{%endtrans%}</a><br/>
+         - <a class="linkdescr" href="{{ pathto("need-help/faq") }}">{%trans%}FAQ{%endtrans%}</a><br/>
+      </p> 
+      <p class="biglink"><div class="section-title">{%trans%}Release Notes{%endtrans%}</div>
+         - <a class="linkdescr" href="{{ pathto("releases/content-releases") }}">{%trans%}New features, upgrades and bug fixes{%endtrans%}</a></span>
+      </p>
+      <p class="biglink"><div class="section-title">{%trans%}Contributor Guides{%endtrans%}</div>
+         <span class="linkdescr">{%trans%}How to contribute to the projects{%endtrans%}</span>
+     </p>
+      <p class="biglink"><div class="section-title">{%trans%}Contents{%endtrans%}</div>
+         <span class="linkdescr">{%trans%}Full table of contents{%endtrans%}</span>
+      </p>
+    </td>
+    </tr>
+    </tbody>
+  </table>
+
+  
+
+{% endblock %}

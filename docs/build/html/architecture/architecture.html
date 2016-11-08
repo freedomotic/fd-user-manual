@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Architecture &#8212; Freedomotic User Manual 5.6.0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootswatch-3.3.4/yeti/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '5.6.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="top" title="Freedomotic User Manual 5.6.0 documentation" href="../index.html" />
+    <link rel="next" title="Messaging system" href="messaging-system.html" />
+    <link rel="prev" title="Ubuntu Snappy" href="../use-cases/ubuntu-snappy.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body role="document">
+<div style="background-color: white; text-align: left; padding: 10px 10px 15px 15px; width=100%; height=auto">
+<a href="../index.html"><img src="../_static/_images/freedomotic.png" border="0" alt="freedomotic" width=250></a>
+</div>
+
+
+
+<div id="navbar" style="background-color:#87AE21" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html">
+        Freedomotic User Manual</a>
+      <span class="navbar-text navbar-version pull-left"><b>5.6.0</b></span>
+    </div>
+
+      <div class="collapse navbar-collapse nav-collapse">
+        <ul class="nav navbar-nav">
+          
+          
+          
+          
+        </ul>
+
+        
+          
+<form class="navbar-form navbar-right" action="../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+        
+          
+            <ul class='nav navbar-nav navbar-right'>
+                
+  <li>
+    <a href="../use-cases/ubuntu-snappy.html" title="Previous Chapter: Ubuntu Snappy"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Ubuntu Snappy</span>
+    </a>
+  </li>
+  <li>
+    <a href="messaging-system.html" title="Next Chapter: Messaging system"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Messaging system &raquo;</span>
+    </a>
+  </li>
+            </ul>
+          
+        
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><p class="caption"><span class="caption-text">The Project</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../the-project/what-is-freedomotic.html">What is Freedomotic?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../the-project/project-history.html">The project history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../the-project/team.html">Team</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../the-project/features.html">Features</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Who is using Freedomotic?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../who-is-using-freedomotic/academic-papers.html">Academic papers &amp; thesis</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Use cases</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../use-cases/what-you-can-do-with-freedomotic.html">What you can do with Freedomotic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../use-cases/pass-project.html">PAss Private Assisted House</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../use-cases/ubuntu-snappy.html">Ubuntu Snappy</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Architecture</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">The framework</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#the-framework">The Framework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#the-plugins">The Plugins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#plugins-objects-and-automations-interaction">Plugins, Objects and Automations interaction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#explanation">Explanation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="messaging-system.html">Messaging system</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Getting started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started/requirements.html">Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started/download.html">Download</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started/installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started/basic-configuration.html">Basic configuration</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Plugins</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../plugins/what-is-a-plugin.html">What is a plugin?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plugins/install-from-marketplace.html">Install from marketplace</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Frontend Clients</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/jfrontend.html">Java Frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/polymer-webclient.html">Polymer web client</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Need help?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../need-help/logging.html">Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../need-help/troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../need-help/faq.html">FAQ</a></li>
+</ul>
+
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="architecture">
+<h1>Architecture<a class="headerlink" href="#architecture" title="Permalink to this headline">¶</a></h1>
+<p>Freedomotic is composed by a core (the framework) plus some plugins.</p>
+<div class="section" id="the-framework">
+<h2>The Framework<a class="headerlink" href="#the-framework" title="Permalink to this headline">¶</a></h2>
+<p>The <strong>core part</strong> is a framework that:</p>
+<p>1. Implements a language independent messaging system based on Enterprise Integration Pattern. From this follows you can develop in
+your favorite language and just exchange messages with the other software components. The aim of the messaging system is to link all
+software modules together in a flexible and abstract way, relating them using the concept of channels (publish-subscribe to different levels of a
+topics hierarchy)</p>
+<p>2. Maintains an internal data structure representing the environment (topology, rooms connections as a graph, ...), the objects in zones and
+their state (on, off, open, closed, 50% dimmed, ...)</p>
+<p>3. Creates an abstraction layer, so users and external software modules can use a high level logic like &#8220;turn on kitchen light&#8221; instead of &#8220;send to
+COM1 port the string #*A01AON##&#8221;. So a developer you can leverage the others plugins features at an high logical level, is just like the
+modules can see the same environment map as the user. All data component (environment, objects, triggers, commands) can be defined
+in XML and easily exchanged on the network between different nodes of the P2P Freedomotic network.</p>
+<p>4. Provides a rules engine coupled with a natural language processing system to let the user writing automations in plain English like &#8220;if outside
+is dark turn on living-room light&#8221;. You can add, update and delete this automations at runtime using any human computer interface like GUIs,
+or even speak them.</p>
+<a class="reference internal image-reference" href="../_images/freedomotic-architecture.png"><img alt="Freedomotic architecture" class="align-center" src="../_images/freedomotic-architecture.png" style="width: 600px; height: 350px;" /></a>
+</div>
+<div class="section" id="the-plugins">
+<h2>The Plugins<a class="headerlink" href="#the-plugins" title="Permalink to this headline">¶</a></h2>
+<p>Freedomotic plugins can add more features to the framework and can be developed and distributed as completely independent packages on our marketplace.</p>
+<div class="section" id="device-plugins">
+<h3>Device plugins<a class="headerlink" href="#device-plugins" title="Permalink to this headline">¶</a></h3>
+<p>They usually are developed to communicate with automation hardware like X10, KNX and so on, but also graphical frontends and &#8220;web service readers&#8221; are Freedomotic plugins just as any other source of info, like webcams, text to speech engines and SMS senders.</p>
+</div>
+<div class="section" id="object-plugins">
+<h3>Object plugins<a class="headerlink" href="#object-plugins" title="Permalink to this headline">¶</a></h3>
+<p>You can also develop object plugins which are pieces of software which models the behavior of objects like lamps, doors, etc... instructing the framework on how they behave. For example a lamp object plugin tells the framework that a lamp has a boolean behavior called powered and a dimmed behavior which is represented by an integer from 0 to 100. A lamp can turn on, turn off and dimm. If dimmed becomes 0% the lamp is powered=false and if dimmed &gt; 0% the lamp is powered=true.</p>
+<a class="reference internal image-reference" href="../_images/components.png"><img alt="alternate text" class="align-center" src="../_images/components.png" style="width: 500px; height: 400px;" /></a>
+</div>
+</div>
+<div class="section" id="plugins-objects-and-automations-interaction">
+<h2>Plugins, Objects and Automations interaction<a class="headerlink" href="#plugins-objects-and-automations-interaction" title="Permalink to this headline">¶</a></h2>
+<p>Here is a diagram explaining the interaction between plugins, events+triggers+commands and Freedomotic APIs</p>
+<a class="reference internal image-reference" href="../_images/events-triggers-commands.png"><img alt="Plugins, Objects and Automations interaction" class="align-center" src="../_images/events-triggers-commands.png" style="width: 650px; height: 400px;" /></a>
+</div>
+<div class="section" id="explanation">
+<h2>Explanation<a class="headerlink" href="#explanation" title="Permalink to this headline">¶</a></h2>
+<p>The final goal is to define an automation which can <strong>turn on</strong> the livingroom light when it&#8217;s tea time (17 o&#8217;Clock).
+The scheduler plugin notifies to Freedomotic the current time (17:00 PM). A trigger named <em>&#8220;it&#8217;s tea time&#8221;</em> is configured to listen to all time based events.
+The it&#8217;s tea time trigger carries a rule inside which is &#8220;event.time.hour == 17 AND event.time.minute == 0&#8221;. When the event is received by this trigger, the rule is evaluated. If the evaluation succeed then the trigger fires, indicating that now it&#8217;s actually the time to take the tea.
+At this point all the corresponding automation IF (trigger: it&#8217;s tea time) THEN (command: turn on livingroom light) is loaded by the system, and the command is executed forwarding the generic request &#8220;turn on livingroom light&#8221; to the plugin which can transform it to a protocol dependent command (eg: send string &#8216;A01AON&#8217; on serial port /dev/ttyUSB0).</p>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<div class="pull-center">
+	<ul class="pager">
+	  
+	  <li class="previous"><a href="../use-cases/ubuntu-snappy.html">&larr; Previous</a></li>
+	  
+	  
+	  <li class="next"><a href="messaging-system.html">Next &rarr;</a></li>
+	  
+	</ul>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2009-2016, Freedomotic Team, http://www.freedomotic.com.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.8.<br/>
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

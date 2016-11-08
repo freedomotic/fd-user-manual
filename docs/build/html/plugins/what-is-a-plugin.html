@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>What is a plugin? &#8212; Freedomotic User Manual 5.6.0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootswatch-3.3.4/yeti/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '5.6.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="top" title="Freedomotic User Manual 5.6.0 documentation" href="../index.html" />
+    <link rel="next" title="Install from marketplace" href="install-from-marketplace.html" />
+    <link rel="prev" title="Basic configuration" href="../getting-started/basic-configuration.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body role="document">
+<div style="background-color: white; text-align: left; padding: 10px 10px 15px 15px; width=100%; height=auto">
+<a href="../index.html"><img src="../_static/_images/freedomotic.png" border="0" alt="freedomotic" width=250></a>
+</div>
+
+
+
+<div id="navbar" style="background-color:#87AE21" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html">
+        Freedomotic User Manual</a>
+      <span class="navbar-text navbar-version pull-left"><b>5.6.0</b></span>
+    </div>
+
+      <div class="collapse navbar-collapse nav-collapse">
+        <ul class="nav navbar-nav">
+          
+          
+          
+          
+        </ul>
+
+        
+          
+<form class="navbar-form navbar-right" action="../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        
+        
+          
+            <ul class='nav navbar-nav navbar-right'>
+                
+  <li>
+    <a href="../getting-started/basic-configuration.html" title="Previous Chapter: Basic configuration"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Basic configuration</span>
+    </a>
+  </li>
+  <li>
+    <a href="install-from-marketplace.html" title="Next Chapter: Install from marketplace"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Install from marketplace &raquo;</span>
+    </a>
+  </li>
+            </ul>
+          
+        
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><p class="caption"><span class="caption-text">The Project</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../the-project/what-is-freedomotic.html">What is Freedomotic?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../the-project/project-history.html">The project history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../the-project/team.html">Team</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../the-project/features.html">Features</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Who is using Freedomotic?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../who-is-using-freedomotic/academic-papers.html">Academic papers &amp; thesis</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Use cases</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../use-cases/what-you-can-do-with-freedomotic.html">What you can do with Freedomotic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../use-cases/pass-project.html">PAss Private Assisted House</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../use-cases/ubuntu-snappy.html">Ubuntu Snappy</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Architecture</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../architecture/architecture.html">The framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../architecture/messaging-system.html">Messaging system</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Getting started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started/requirements.html">Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started/download.html">Download</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started/installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started/basic-configuration.html">Basic configuration</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Plugins</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">What is a plugin?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#plugin-features">Plugin features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-make-a-non-java-application-communicate-with-freedomotic">How to make a non-Java application communicate with Freedomotic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#plugin-manifest-and-configuration">Plugin manifest and configuration</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="install-from-marketplace.html">Install from marketplace</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Frontend Clients</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/jfrontend.html">Java Frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/polymer-webclient.html">Polymer web client</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Need help?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../need-help/logging.html">Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../need-help/troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../need-help/faq.html">FAQ</a></li>
+</ul>
+
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="what-is-a-plugin">
+<h1>What is a plugin?<a class="headerlink" href="#what-is-a-plugin" title="Permalink to this headline">¶</a></h1>
+<p>Freedomotic is an application extensible through plugins. Plugins are simple classes within a .jar java package. Each plugin is deployed in the FREEDOMOTIC_ROOT/plugins/ folder and loaded and initialized automatically at Freedomotic startup.
+The communication between the plugin and Freedomotic is automatically managed via a Message Oriented Middleware. Plugins in addition to the &#8216;Manager of the messages&#8217; have direct access to Freedomotic data structures. In a plugin, you can create, read, update, or delete data and use them to accomplish your goals.</p>
+<div class="section" id="plugin-features">
+<h2>Plugin features<a class="headerlink" href="#plugin-features" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>plugin configuration management</li>
+<li>user interface accessible by right click in plugins list</li>
+<li>simplyfied access to freedomotic data structures</li>
+<li>automatic management of plugin lifecycle (loaded, running, stopped,...)</li>
+<li>access to the messaging system (read/write events and commands)</li>
+<li>installation and upgrade of plugins from a marketplace</li>
+<li>simplified programming implementing events (onCommand(), onRun(), onStart, onStop(), ...).</li>
+</ol>
+</div>
+<div class="section" id="how-to-make-a-non-java-application-communicate-with-freedomotic">
+<h2>How to make a non-Java application communicate with Freedomotic<a class="headerlink" href="#how-to-make-a-non-java-application-communicate-with-freedomotic" title="Permalink to this headline">¶</a></h2>
+<p>Till now we talked about how to extend Freedomotic with Java plugins. However is possible to make non-Java application communicate with Freedomotic. Take a look at <a class="reference external" href="https://github.com/freedomotic/freedomotic/wiki/Freedomotic-APIs">https://github.com/freedomotic/freedomotic/wiki/Freedomotic-APIs</a></p>
+</div>
+<div class="section" id="plugin-manifest-and-configuration">
+<h2>Plugin manifest and configuration<a class="headerlink" href="#plugin-manifest-and-configuration" title="Permalink to this headline">¶</a></h2>
+<p>Every Java plugin needs an XML manifest file to describe the plugin to Freedomotic. As multiple plugins can be in the same plugin package (the one you download from the marketplace) then more than one manifest file can be in the root folder of a plugin package.
+In Java you bind your plugin to its manifest in the class Constructor this way:
+public MyPlugin() {</p>
+<blockquote>
+<div>super(&#8220;Hello World Sensor&#8221; ,&#8221;/firstsensor/first-sensor-manifest.xml&#8221;);</div></blockquote>
+<p>}
+The manifest filename is defined in the plugin constructor (in this case &#8220;first-sensor-manifest.xml&#8221;). The path is case sensitive so &#8220;/firstsensor/first-sensor-manifest.xml&#8221; is not the same as &#8220;/FirstSensor/First-Sensor-Manifest.xml&#8221;.
+What&#8217;s inside the manifest
+This is an example of the most simple manifest file you can have:</p>
+<div class="highlight-'xml'"><div class="highlight"><pre><span></span>&lt;config&gt;
+   &lt;properties&gt;
+     &lt;property name=&quot;name&quot; value=&quot;Hello World&quot;/&gt;
+     &lt;property name=&quot;description&quot; value=&quot;A basic plugin that prints &#39;Hello World&#39; on standard output&quot;/&gt;
+     &lt;property name=&quot;category&quot; value=&quot;examples&quot;/&gt;
+     &lt;property name=&quot;short-name&quot; value=&quot;hello-world&quot;/&gt;
+   &lt;/properties&gt;
+&lt;/config&gt;
+</pre></div>
+</div>
+<p>Every plugin has a unique input &#8216;&#8217;Messaging Channel&#8217;&#8217; used for message exchange; it is addressed using the info you put in the manifest file. For plugins the Channel name is: app.actuators.CATEGORY.SHORT-NAME.in
+The plugin manifest is the ONLY place you should add configuration parameters for your plugin. You should not use external files; the manifest is all you need to include complex configuration options that can be changed at runtime using a Freedomotic frontend.
+You can add custom properties to this list. The properties can be retrieved programmatically this way:
+int ServerPort = configuration.getIntProperty(&#8220;udp-server-port&#8221;, 7331); //defaults to 7331 if not found in manifest
+String Delimiter = configuration.getStringProperty(&#8220;delimiter&#8221;, &#8221;:&#8221;); //defaults to &#8216;:&#8217; if not found in manifest
+Add configuration blocks to your plugin
+If you have to configure multiple the same set of properties for different objects (eg: URL and port of a set of hardware boards) you can use tuples.
+You can add as many blocks as you need. The block may be added after on the same hierarchical level. Tuples are useful to have configuration data specific for you plugin to be loaded in Freedomotic at startup. Related configuration data can be stored in blocks called tuple.</p>
+<div class="highlight-'xml'"><div class="highlight"><pre><span></span>&lt;tuples&gt;
+      &lt;tuple&gt;
+        &lt;property name=&quot;Name&quot; value=&quot;TemperatureZone1&quot;/&gt;
+        &lt;property name=&quot;SlaveId&quot; value=&quot;1&quot;/&gt;
+        &lt;property name=&quot;RegisterRange&quot; value=&quot;HOLDING_REGISTER&quot;/&gt;
+        &lt;property name=&quot;DataType&quot; value=&quot;TWO_BYTE_INT_UNSIGNED&quot;/&gt;
+        &lt;property name=&quot;Offset&quot; value=&quot;266&quot;/&gt;
+        &lt;property name=&quot;NumberOfRegisters&quot; value=&quot;1&quot;/&gt;
+        &lt;property name=&quot;Multiplier&quot; value=&quot;0.1d&quot;/&gt;
+        &lt;property name=&quot;Additive&quot; value=&quot;0.0d&quot;/&gt;
+        &lt;property name=&quot;EventName&quot; value=&quot;TemperatureZone1&quot;/&gt;
+     &lt;/tuple&gt;
+      &lt;tuple&gt;
+        &lt;property name=&quot;Name&quot; value=&quot;TemperatureZone2&quot;/&gt;
+        &lt;property name=&quot;SlaveId&quot; value=&quot;1&quot;/&gt;
+        &lt;property name=&quot;RegisterRange&quot; value=&quot;HOLDING_REGISTER&quot;/&gt;
+        &lt;property name=&quot;DataType&quot; value=&quot;TWO_BYTE_INT_UNSIGNED&quot;/&gt;
+        &lt;property name=&quot;Offset&quot; value=&quot;522&quot;/&gt;
+        &lt;property name=&quot;NumberOfRegisters&quot; value=&quot;1&quot;/&gt;
+        &lt;property name=&quot;Multiplier&quot; value=&quot;0.1d&quot;/&gt;
+        &lt;property name=&quot;Additive&quot; value=&quot;0.0d&quot;/&gt;
+        &lt;property name=&quot;EventName&quot; value=&quot;TemperatureZone2&quot;/&gt;
+     &lt;/tuple&gt;
+&lt;/tuples&gt;
+</pre></div>
+</div>
+<p>This data is automatically available to your plugin. You can use free custom strings for the attribute name and the value. To read these tuples variables programmatically see the [Data Access Freedomotic Data page]</p>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<div class="pull-center">
+	<ul class="pager">
+	  
+	  <li class="previous"><a href="../getting-started/basic-configuration.html">&larr; Previous</a></li>
+	  
+	  
+	  <li class="next"><a href="install-from-marketplace.html">Next &rarr;</a></li>
+	  
+	</ul>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2009-2016, Freedomotic Team, http://www.freedomotic.com.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.8.<br/>
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

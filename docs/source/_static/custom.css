@@ -34,3 +34,25 @@ p.first.admonition-title {
     font-style: italic;
 }
 
+a.linkdescr:link{
+    color: #87AE21;
+    font-style: italic;
+}
+
+a.linkdescr:visited{
+    color: #87AE21;
+    font-style: italic;
+}
+
+a.linkdescr:hover{
+    color: #87AE21;
+    font-style: italic;
+}
+
+.previous {
+    color: #0f3d0f;
+}
+
+.next {
+    color: #0f3d0f;
+}

@@ -15,10 +15,10 @@ pathto("_static/_images/freedomotic.png", 1) }}" border="0" alt="freedomotic" wi
 <div class="pull-center">
 	<ul class="pager">
 	  {% if prev %}
-	  <li class="previous"><a href="{{ prev.link|e }}">&larr; Previous</a></li>
+	  <li><a class="linkdescr" href="{{ prev.link|e }}">&larr; Previous</a></li>
 	  {% endif %}
 	  {%if next %}
-	  <li class="next"><a href="{{ next.link|e }}">Next &rarr;</a></li>
+	  <li><a class="linkdescr" href="{{ next.link|e }}">Next &rarr;</a></li>
 	  {% endif %}
 	</ul>
 </div>

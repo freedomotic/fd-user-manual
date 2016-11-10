@@ -6,7 +6,7 @@ The Freedomotic team consists of a group of enthusiasts who work on the framewor
 
 .. csv-table:: Main contributors sorted by join date
    :header: "Name", "From", "Contacts", "Social", "Duties"
-   :widths: 25, 10, 10, 5, 40
+   :widths: 25, 10, 15, 10, 25
    
    "Enrico Nicoletti","Italy","info@freedomotic.com", "", "Project Founder, Project vision, Core Developer"
    "Mauro Cicolella","Italy","mauro@freedomotic.com","","Community Manager, Automation Protocols Integration, Marketing and end-users, Communication, Quality Assurance"
@@ -16,7 +16,7 @@ The Freedomotic team consists of a group of enthusiasts who work on the framewor
    
 .. csv-table:: Past members
    :header: "Name", "From", "Contacts", "Social", "Duties"
-   :widths: 25, 10, 10, 5, 40
+   :widths: 25, 10, 15, 10, 25
    
    "Niko Zarzani","Italy","","","UI Development"
    "Roberto Socrates","Spain","","","Core Developer, Software architect"

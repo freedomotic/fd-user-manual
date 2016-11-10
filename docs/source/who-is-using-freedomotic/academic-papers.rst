@@ -4,7 +4,7 @@ Academic papers & thesis
 
 .. csv-table:: a title
    :header: "Title", "Author(s)", "Supervisor(s)", "University", "Date", "Link"
-   :widths: 25, 15, 15, 15, 5, 10
+   :widths: 20, 20, 15, 20, 7, 10
    
    "Definizione e sviluppo di un sistema di configurazione per Private Assisted House","Michele Bravi","Prof. Francesco De Angelis - Prof.ssa Barbara Re","University of Camerino (Italy)","2014","`Link <http://goo.gl/Mk2xyu>`_ - `Video <https://www.youtube.com/watch?v=1S7eYwwVB30>`_"	
    "Heima Off Grid Casa Auto‐Suficiente Controlada","Francesco Campoli","Prof. Paulo  Costa","Istituto Politecnico de Viana do Castelo (Portugal)","2015","`Link <http://goo.gl/znQM4V>`_"	

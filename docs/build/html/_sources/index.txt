@@ -29,6 +29,7 @@ Contents:
 
    What you can do with Freedomotic <use-cases/what-you-can-do-with-freedomotic>
    PAss Private Assisted House <use-cases/pass-project>
+   SED Special Electronic Design <use-cases/sed>
    Ubuntu Snappy <use-cases/ubuntu-snappy>
    
 .. toctree::
@@ -52,6 +53,7 @@ Contents:
    :maxdepth: 2
 
    What is a plugin? <plugins/what-is-a-plugin>
+   Plugins list <plugins/plugins-list>
    Install from marketplace <plugins/install-from-marketplace>
    
 .. toctree::

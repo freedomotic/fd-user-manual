@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>PAss Private Assisted House &#8212; Freedomotic User Manual 5.6.0 documentation</title>
+    <title>Plugins List &#8212; Freedomotic User Manual 5.6.0 documentation</title>
     
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -33,8 +33,8 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="top" title="Freedomotic User Manual 5.6.0 documentation" href="../index.html" />
-    <link rel="next" title="SED Special Electronic Design" href="sed.html" />
-    <link rel="prev" title="What you can do with Freedomotic" href="what-you-can-do-with-freedomotic.html" />
+    <link rel="next" title="Install from marketplace" href="install-from-marketplace.html" />
+    <link rel="prev" title="What is a plugin?" href="what-is-a-plugin.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -85,11 +85,11 @@
             <ul class='nav navbar-nav navbar-right'>
                 
   <li>
-    <a href="what-you-can-do-with-freedomotic.html" title="Previous Chapter: What you can do with Freedomotic"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; What you can do with Fr...</span>
+    <a href="what-is-a-plugin.html" title="Previous Chapter: What is a plugin?"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; What is a plugin?</span>
     </a>
   </li>
   <li>
-    <a href="sed.html" title="Next Chapter: SED Special Electronic Design"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">SED Special Electronic ... &raquo;</span>
+    <a href="install-from-marketplace.html" title="Next Chapter: Install from marketplace"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Install from marketplace &raquo;</span>
     </a>
   </li>
             </ul>
@@ -114,11 +114,11 @@
 <li class="toctree-l1"><a class="reference internal" href="../who-is-using-freedomotic/academic-papers.html">Academic papers &amp; thesis</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Use cases</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="what-you-can-do-with-freedomotic.html">What you can do with Freedomotic</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">PAss Private Assisted House</a></li>
-<li class="toctree-l1"><a class="reference internal" href="sed.html">SED Special Electronic Design</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ubuntu-snappy.html">Ubuntu Snappy</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../use-cases/what-you-can-do-with-freedomotic.html">What you can do with Freedomotic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../use-cases/pass-project.html">PAss Private Assisted House</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../use-cases/sed.html">SED Special Electronic Design</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../use-cases/ubuntu-snappy.html">Ubuntu Snappy</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Architecture</span></p>
 <ul>
@@ -133,10 +133,10 @@
 <li class="toctree-l1"><a class="reference internal" href="../getting-started/basic-configuration.html">Basic configuration</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Plugins</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../plugins/what-is-a-plugin.html">What is a plugin?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../plugins/plugins-list.html">Plugins list</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../plugins/install-from-marketplace.html">Install from marketplace</a></li>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="what-is-a-plugin.html">What is a plugin?</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Plugins list</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install-from-marketplace.html">Install from marketplace</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Frontend Clients</span></p>
 <ul>
@@ -154,15 +154,32 @@
       </div>
     <div class="col-md-9 content">
       
-  <div class="section" id="pass-private-assisted-house">
-<h1>PAss Private Assisted House<a class="headerlink" href="#pass-private-assisted-house" title="Permalink to this headline">¶</a></h1>
-<p>The team, headed by dott. Francesco De Angelis is working together with INRCA and Regione Marche, on a complete platform that integrates and coordinates home automation, telemedicine solutions and smart objects in the same house. A &#8220;smart house&#8221; meta-model was developed as a result of a multidisciplinary collaboration between University of Camerino (architecture and computer science), Rehabilitation Institute Santo Stefano (<a class="reference external" href="http://www.sstefano.it/">http://www.sstefano.it/</a>) and many manufactorers located in Regione Marche that produce hardware, telemedicine devices and also everyday objects that aims to make &#8220;smart&#8221; with some form of integration of sensors/actuators.</p>
-<p>FreeDomotic was chosen as the platform for integration of domestic smart objects (sensors and actuators) in the home environment. These objects can communicate through a home gateway using JSON payload carried on MQTT.</p>
-<p>This is for a dual purpose: (1) generate local in house events to be fed to Freedomotic, and create automations according to the rules if-then-else, and (2) carry the same data to an internet data center that integrates house-related information with telemedicine data, and implements ad-hoc algorithms - with respect to the disability/disease of those who live in the house- that realyze a remote control mechanism and can lift alerts to a caregiver or fire in-house automations from outside. For example, one of the partners is developing an app that uses Bayesian networks to control the &#8220;normal&#8221; patients&#8217; behavior. One of the project aims is about developing a mobile UI to be allocated to health care professionals and patients themselves. This should simplify as much as possible the daily operations inside the house. It is not intended, at the time, to let users configure the in house environment and it devices.</p>
-<p>Italian Thesis</p>
-<p>DEMO VIDEO</p>
-<p>PAss Private Assisted House Project</p>
-<p>PAss Forum Pa Challenge Slideshare</p>
+  <div class="section" id="plugins-list">
+<h1>Plugins List<a class="headerlink" href="#plugins-list" title="Permalink to this headline">¶</a></h1>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="64%" />
+<col width="15%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Plugin</th>
+<th class="head">Description</th>
+<th class="head">Categories</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Arduino Serial Communication</td>
+<td>A basic example to communicate with an arduino board by serial connection</td>
+<td><ul class="first last simple">
+<li>Arduino</li>
+<li>Automation Protocols</li>
+<li>IoT</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 
@@ -173,10 +190,10 @@
 <div class="pull-center">
 	<ul class="pager">
 	  
-	  <li><a class="linkdescr" href="what-you-can-do-with-freedomotic.html">&larr; Previous</a></li>
+	  <li><a class="linkdescr" href="what-is-a-plugin.html">&larr; Previous</a></li>
 	  
 	  
-	  <li><a class="linkdescr" href="sed.html">Next &rarr;</a></li>
+	  <li><a class="linkdescr" href="install-from-marketplace.html">Next &rarr;</a></li>
 	  
 	</ul>
 </div>

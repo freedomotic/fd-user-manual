@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>PAss Private Assisted House &#8212; Freedomotic User Manual 5.6.0 documentation</title>
+    <title>SED Special Electronic Design &#8212; Freedomotic User Manual 5.6.0 documentation</title>
     
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -33,8 +33,8 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="top" title="Freedomotic User Manual 5.6.0 documentation" href="../index.html" />
-    <link rel="next" title="SED Special Electronic Design" href="sed.html" />
-    <link rel="prev" title="What you can do with Freedomotic" href="what-you-can-do-with-freedomotic.html" />
+    <link rel="next" title="Ubuntu Snappy" href="ubuntu-snappy.html" />
+    <link rel="prev" title="PAss Private Assisted House" href="pass-project.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -85,11 +85,11 @@
             <ul class='nav navbar-nav navbar-right'>
                 
   <li>
-    <a href="what-you-can-do-with-freedomotic.html" title="Previous Chapter: What you can do with Freedomotic"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; What you can do with Fr...</span>
+    <a href="pass-project.html" title="Previous Chapter: PAss Private Assisted House"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; PAss Private Assisted H...</span>
     </a>
   </li>
   <li>
-    <a href="sed.html" title="Next Chapter: SED Special Electronic Design"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">SED Special Electronic ... &raquo;</span>
+    <a href="ubuntu-snappy.html" title="Next Chapter: Ubuntu Snappy"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Ubuntu Snappy &raquo;</span>
     </a>
   </li>
             </ul>
@@ -116,8 +116,12 @@
 <p class="caption"><span class="caption-text">Use cases</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="what-you-can-do-with-freedomotic.html">What you can do with Freedomotic</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">PAss Private Assisted House</a></li>
-<li class="toctree-l1"><a class="reference internal" href="sed.html">SED Special Electronic Design</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pass-project.html">PAss Private Assisted House</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">SED Special Electronic Design</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#software-plugins">Software/Plugins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#plugins-used-for-the-current-system">Plugins used for the current system</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="ubuntu-snappy.html">Ubuntu Snappy</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Architecture</span></p>
@@ -154,15 +158,39 @@
       </div>
     <div class="col-md-9 content">
       
-  <div class="section" id="pass-private-assisted-house">
-<h1>PAss Private Assisted House<a class="headerlink" href="#pass-private-assisted-house" title="Permalink to this headline">¶</a></h1>
-<p>The team, headed by dott. Francesco De Angelis is working together with INRCA and Regione Marche, on a complete platform that integrates and coordinates home automation, telemedicine solutions and smart objects in the same house. A &#8220;smart house&#8221; meta-model was developed as a result of a multidisciplinary collaboration between University of Camerino (architecture and computer science), Rehabilitation Institute Santo Stefano (<a class="reference external" href="http://www.sstefano.it/">http://www.sstefano.it/</a>) and many manufactorers located in Regione Marche that produce hardware, telemedicine devices and also everyday objects that aims to make &#8220;smart&#8221; with some form of integration of sensors/actuators.</p>
-<p>FreeDomotic was chosen as the platform for integration of domestic smart objects (sensors and actuators) in the home environment. These objects can communicate through a home gateway using JSON payload carried on MQTT.</p>
-<p>This is for a dual purpose: (1) generate local in house events to be fed to Freedomotic, and create automations according to the rules if-then-else, and (2) carry the same data to an internet data center that integrates house-related information with telemedicine data, and implements ad-hoc algorithms - with respect to the disability/disease of those who live in the house- that realyze a remote control mechanism and can lift alerts to a caregiver or fire in-house automations from outside. For example, one of the partners is developing an app that uses Bayesian networks to control the &#8220;normal&#8221; patients&#8217; behavior. One of the project aims is about developing a mobile UI to be allocated to health care professionals and patients themselves. This should simplify as much as possible the daily operations inside the house. It is not intended, at the time, to let users configure the in house environment and it devices.</p>
-<p>Italian Thesis</p>
-<p>DEMO VIDEO</p>
-<p>PAss Private Assisted House Project</p>
-<p>PAss Forum Pa Challenge Slideshare</p>
+  <div class="section" id="sed-special-electronic-design">
+<h1>SED Special Electronic Design<a class="headerlink" href="#sed-special-electronic-design" title="Permalink to this headline">¶</a></h1>
+<p>SED Limited society environment management</p>
+<ol class="arabic simple">
+<li>Remote access</li>
+<li>Automations aimed at limiting consumption</li>
+<li>Device automations override</li>
+<li>Granular user privileges</li>
+<li>Verification of consumpion of variable temporal arc</li>
+<li>Hierarchical control between buildings</li>
+<li>Hardware/plant</li>
+</ol>
+<p>The electrical system globally exploits the use of contactors in bistable relay for the control of devices and not natively provided for a home automation system. The home automation control adapters have been added at a later time and positioned in parallel to preseistente plant, so as to read the status of the devices and also control the contactors. In this perspective, it wanted to show that it is possible to &#8216;extend&#8217; a classic system with home automation controls, as well as to limit the planned set of activities and allow for retrofitting low costs.
+The Easybox cards are therefore used to add a classic on the system advanced features, including:</p>
+<ol class="arabic simple">
+<li>Timing the ignition of the fan coil in order to ensure a homogeneous air conditioning of rooms</li>
+<li>Timing the switching off of devices, so as to minimize the wastage from forgetfulness.</li>
+<li>Collect data on the use of the devices so as to estimate the fuel consumption and the resulting savings, compared to the scenario of a classic system.</li>
+</ol>
+<div class="section" id="software-plugins">
+<h2>Software/Plugins<a class="headerlink" href="#software-plugins" title="Permalink to this headline">¶</a></h2>
+<p>The system is run on a workstation WIN 7 Intel Core i3 and 4GB RAM; The same machine also houses a SQLSERVER 2008 server.</p>
+</div>
+<div class="section" id="plugins-used-for-the-current-system">
+<h2>Plugins used for the current system<a class="headerlink" href="#plugins-used-for-the-current-system" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Easybox boards control</li>
+<li>Harvester: storage of usage data on db</li>
+<li>Twilight: events based on sunrise and sunset times</li>
+<li>Chat: remote control, test controls and automation</li>
+<li>Desktop Frontend</li>
+</ol>
+</div>
 </div>
 
 
@@ -173,10 +201,10 @@
 <div class="pull-center">
 	<ul class="pager">
 	  
-	  <li><a class="linkdescr" href="what-you-can-do-with-freedomotic.html">&larr; Previous</a></li>
+	  <li><a class="linkdescr" href="pass-project.html">&larr; Previous</a></li>
 	  
 	  
-	  <li><a class="linkdescr" href="sed.html">Next &rarr;</a></li>
+	  <li><a class="linkdescr" href="ubuntu-snappy.html">Next &rarr;</a></li>
 	  
 	</ul>
 </div>

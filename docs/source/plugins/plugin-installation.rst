@@ -1,6 +1,9 @@
 
+Plugin installation
+===================
+
 Install from marketplace
-========================
+------------------------
 
 If you want to download a plugin from Marketplace you must follow some simple steps:
 - open a Freedomotic instance on your Pc

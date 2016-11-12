@@ -21,7 +21,6 @@ Contents:
    :maxdepth: 2
 
    Academic papers & thesis <who-is-using-freedomotic/academic-papers>
-   Use cases <who-is-using-freedomotic/use-cases>
    
 .. toctree::
    :caption: Use cases
@@ -30,6 +29,7 @@ Contents:
    What you can do with Freedomotic <use-cases/what-you-can-do-with-freedomotic>
    PAss Private Assisted House <use-cases/pass-project>
    SED Special Electronic Design <use-cases/sed>
+   SpokenHouse <use-cases/spokenhouse>
    Ubuntu Snappy <use-cases/ubuntu-snappy>
    
 .. toctree::
@@ -53,8 +53,10 @@ Contents:
    :maxdepth: 2
 
    What is a plugin? <plugins/what-is-a-plugin>
+   Plugin installation <plugins/plugin-installation>
+   Plugin configuration <plugins/plugin-configuration>
    Plugins list <plugins/plugins-list>
-   Install from marketplace <plugins/install-from-marketplace>
+   Arduino Serial Communication <plugins/arduino-serial-communication>
    
 .. toctree::
    :caption: Frontend Clients

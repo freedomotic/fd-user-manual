@@ -51,6 +51,7 @@ Here you have two options.
 
 #. Add it from the toolbar: click on menu **Edit** -> **Objects Edit Mode** or press **F6**. Now you see the list of things you can add to your environment. Simply right click on it and choose "Add to environment". Press F6 again to come back to view mode.
 #. Clone an already existent thing on the map: select one, right click on it, go to **Properties** tab and press the **Create a Copy** button.
+
 A new thing of the same type will be created and placed in the left top corner of your environmnent. To know how to rename it and move read the next paragraph.
 
 How to customize the things icons
@@ -72,6 +73,12 @@ Localization
 Freedomotic can detect your pc configuration and set the correct language.
 If it's not available or you choose the default value **auto** the software uses **English**.
 
+.. image:: images/languages.png
+    :width: 650px
+    :align: center
+    :height: 450px
+    :alt: Freedomotic Multilanguage Support
+
 
 Automations
 ###########
@@ -84,20 +91,23 @@ To create a new automation right click on the related object, switch to **Automa
 
 For example:
 
-Right click on a light,
-Switch to Automations tab
-Type "switch its power" in the input box related to the trigger "if XXX is clicked".
-Click OK.
+#. right click on a light
+#. switch to **Automations** tab
+#. type **"switch its power"** in the input box related to the trigger **"if XXX is clicked"**.
+#. click **OK**
+
 Now the light turns on and off when you click it.
 
 Time Driven Automations
 ***********************
-For timed automations like "every minute do this" you will need a "Clock" object. (If there isn't one already one of the map, add one by pressing F6 and double clicking  on the Clock object on the list on the left side of your screen.) Then right click on your new object, switch to automations tab and create your automation the same way as the Event Driven Automations, just  explained above, for example:
+For timed automations like **"every minute do that"** you will need a **Clock** object. (If there isn't one on the map, add it by pressing F6 and double clicking on the **Clock** thing on the list on the left side of your screen).
 
-Make a light blink every 5 seconds
+Then right click on your new object, switch to automations tab and create your automation the same way as the Event Driven Automations, just  explained above, for example:
 
-Right clik on the clock object and switch to "Automations Tab" or use the automations editor which lists all available triggers.
-Find the trigger "every 5 seconds" and link to it the command  "Switch Light1 power".
+Switch power for all lights every 5 seconds
+
+Right clik on the clock object and switch to **Automations Tab** or use the automations editor which lists all available triggers.
+Find the trigger "every 5 seconds" and link to it the command  **"switch power for all lights"**.
 
 
 
@@ -109,6 +119,14 @@ Download new features from the marketplace
 In **Plugins** menu choose **Install from marketplace**. After the list is updated (it can take up to a minute) you will see the list of plugins on the markeplace that are available for your current Freedomotic version.
 To install one double click on it and follow the instructions.
 
+.. image:: images/install-from-marketplace.png
+    :width: 650px
+    :align: center
+    :height: 450px
+    :alt: Install plugins from marketplace
+
+
+
 Start and stop plugins
 **********************
 Loaded plugins are visible in the list on the left of the environment map. Running plugins are represented by a coloured icon.
@@ -117,9 +135,31 @@ For example the OpenWebNet plugin enables communication with BTicino OpenWebNet 
 but only "translates" the Freedomotic user commands as **turn on kitcken light** into hardware level specific commands. This way you could forget about hardware details and how they communicate internally,
 you simply say "turn on kitchen light", and Freedomotic takes care of the rest.
 
+.. figure:: images/plugin-list.png
+    :width: 650px
+    :align: center
+    :height: 450px
+    :alt: Plugins list
+    :figclass: align-center
+
+    Plugins list    
+
 How to configure a plugin
 *************************
-Some plugins offer a configuration dialog to interact with its features. To show it simply right click on the plugin name. For example you can try this on the "Various Sensors" plugins which is a development tool to simulate a temperature and luminosity sensor. You can make this fake sensor notify a temperature change to Freedomotic moving the "temperature" slider. Please remember that not all plugins have a configuration dialog, so if you right click and nothing shows is because this plugin have no configuration options.
+Some plugins offer a configuration dialog to interact with its features. To show it simply right click on the plugin name. 
+For example you can try this on the **"Sensors Simulator"** plugins which is a development tool to simulate a temperature and luminosity sensor.
+You can make this fake sensor notify a temperature change to Freedomotic moving the **temperature** slider. 
+
+.. image:: images/sensors-simulator.png
+    :width: 650px
+    :align: center
+    :height: 450px
+    :alt: Sensors Simulator Plugin
+
+
+
+.. note::  Not all plugins have a configuration dialog so if you right click and nothing shows is because this plugin have no configuration options.
+
 
 Settings
 ########

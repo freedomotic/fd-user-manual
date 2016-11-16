@@ -1,6 +1,6 @@
 
-Plugin Template
-===============
+ProgettiHw-Sw Ethernet Board v2
+===============================
 
 **Description**: 
 

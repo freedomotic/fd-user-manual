@@ -1,6 +1,6 @@
 
-Plugin Template
-===============
+HWg-STE Ethernet thermometer
+============================
 
 **Description**: 
 

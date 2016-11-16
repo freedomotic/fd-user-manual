@@ -1,6 +1,6 @@
 
-Plugin Template
-===============
+Denkovi USB Four(4) Relay Output Module
+=======================================
 
 **Description**: 
 

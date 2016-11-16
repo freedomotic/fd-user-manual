@@ -1,6 +1,6 @@
 
-Plugin Template
-===============
+GCE Electronics IPX800
+======================
 
 **Description**: 
 

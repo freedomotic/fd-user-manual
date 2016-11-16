@@ -1,6 +1,6 @@
 
-Plugin Template
-===============
+BT Speech Recognition
+=====================
 
 **Description**: 
 

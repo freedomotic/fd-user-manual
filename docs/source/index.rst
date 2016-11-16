@@ -56,7 +56,27 @@ Contents:
    Plugin installation <plugins/plugin-installation>
    Plugin configuration <plugins/plugin-configuration>
    Plugins list <plugins/plugins-list>
+   Arduino Remote Controller <plugins/arduino-remote-controller>
    Arduino Serial Communication <plugins/arduino-serial-communication>
+   Arduino WeatherShield <plugins/arduino-weathershield>
+   Base Home Automation Things <plugins/base-things>
+   BT Speech Recognition <plugins/bt-speech-recognition>
+   Chat Plugin <plugins/chat>
+   Denkovi USB Four(4) Relay Output Module <plugins/denkovi-usb-4-relay-board>
+   Devantech Ltd Eth-Rly16 <plugins/arduino-serial-communication>
+   Google Calendar Events <plugins/google-calendar>
+   HWg-STE Ethernet thermometer <plugins/hwg-ste>
+   IpCamera Motion <plugins/ipcamera-motion>
+   GCE Electronics IPX800 <plugins/ipx800>
+   KMTronic USB Relay <plugins/kmtronic-usb-relay>
+   Mailer <plugins/mailer>
+   MaryTTS Text To Speech <plugins/marytts>
+   Modbus <plugins/modbus>
+   MQTT Broker <plugins/mqtt-broker>
+   MQTT Client <plugins/mqtt-client>
+   MySensors <plugins/mysensors>
+   openPicus Flyport <plugins/openpicus-flyport>
+
    
 .. toctree::
    :caption: Frontend Clients

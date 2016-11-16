@@ -1,6 +1,6 @@
 
-Plugin Template
-===============
+Arduino Remote Controller
+=========================
 
 **Description**: 
 

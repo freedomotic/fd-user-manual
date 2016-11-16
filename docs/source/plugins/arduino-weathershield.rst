@@ -1,6 +1,6 @@
 
-Plugin Template
-===============
+Arduino WeatherShield
+=====================
 
 **Description**: 
 

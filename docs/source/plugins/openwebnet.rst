@@ -1,6 +1,6 @@
 
-Plugin Template
-===============
+BTicino OpenWebNet
+==================
 
 **Description**: 
 

@@ -1,6 +1,6 @@
 
-Plugin Template
-===============
+Telegram Bot
+============
 
 **Description**: 
 

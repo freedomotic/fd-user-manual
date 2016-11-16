@@ -1,6 +1,6 @@
 
-Plugin Template
-===============
+KMTronic Usb Relay
+==================
 
 **Description**: 
 

@@ -1,5 +1,5 @@
 
-Plugin Template
+IpCamera Motion
 ===============
 
 **Description**: 

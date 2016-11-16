@@ -1,6 +1,6 @@
 
-Plugin Template
-===============
+Room-based Events
+=================
 
 **Description**: 
 
@@ -10,7 +10,7 @@ Plugin Template
 
 **Tested on:** All platforms
 
-**Developer:** Mauro Cicolella
+**Developer:** Matteo Mazzoni
 
 Overview
 --------

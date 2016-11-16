@@ -1,6 +1,6 @@
 
-Plugin Template
-===============
+openPicus Grove System
+======================
 
 **Description**: 
 

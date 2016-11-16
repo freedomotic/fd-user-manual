@@ -1,6 +1,6 @@
 
-Plugin Template
-===============
+Teracom TCW122B-CM
+==================
 
 **Description**: 
 

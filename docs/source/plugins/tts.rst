@@ -1,6 +1,6 @@
 
-Plugin Template
-===============
+Text To Speech
+==============
 
 **Description**: 
 
@@ -10,7 +10,7 @@ Plugin Template
 
 **Tested on:** All platforms
 
-**Developer:** Mauro Cicolella
+**Developer:** Enrico Nicoletti
 
 Overview
 --------

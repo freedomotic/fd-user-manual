@@ -1,6 +1,6 @@
 
-Plugin Template
-===============
+Twitter4Freedomotic
+===================
 
 **Description**: 
 
@@ -10,7 +10,7 @@ Plugin Template
 
 **Tested on:** All platforms
 
-**Developer:** Mauro Cicolella
+**Developer:** Gabriel Pulido de Torres
 
 Overview
 --------

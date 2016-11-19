@@ -10,9 +10,9 @@ How to enable logging
 #####################
 Change the property KEY_SAVE_LOG_TO_FILE in *FREEDOMOTIC_ROOT/config/config.xml* by choosing one of the following values:
 
-* "OFF" : no logging
-* "ALL" : all levels
-* LOG LEVEL (INFO | DEBUG | WARN | ERROR) : specify a log level. 
+* **"OFF**: no logging
+* **ALL**: all levels
+* **LOG LEVEL (INFO | DEBUG | WARN | ERROR)**: specify a log level 
 
 For example
 

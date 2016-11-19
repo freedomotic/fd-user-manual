@@ -49,16 +49,19 @@ How to add things to the environment map
 ****************************************
 Here you have two options.
 
-#. Add it from the toolbar: click on menu **Edit** -> **Objects Edit Mode** or press **F6**. Now you see the list of things you can add to your environment. Simply right click on it and choose "Add to environment". Press F6 again to come back to view mode.
+#. Add it from the toolbar: click on menu **Edit** -> **Objects Edit Mode** or press **F6**. Now you see the list of things you can add to your environment. Simply right click on it and choose **Add to environment**. Press F6 again to come back to view mode.
 #. Clone an already existent thing on the map: select one, right click on it, go to **Properties** tab and press the **Create a Copy** button.
 
 A new thing of the same type will be created and placed in the left top corner of your environmnent. To know how to rename it and move read the next paragraph.
 
 How to customize the things icons
 *********************************
-Things icons are stored in *FREEDOMOTIC_FOLDER/data/resources*. If you want to edit a thing icon or create a completely new one firstly edit/create the png image used to represent the thing, and put it in the folder mentioned above.
-Then you have to associate your icon with the thing. To do so right click on a thing and go to **Representation** tab. Click on the **Change Image** button and select your custom image you put in the FREEDOMOTIC_FOLDER/data/resources folder. 
-Every thing behavior (on, off, etc...) can have a different icon to represent itself, so you have to repeat the operation for every representation you want to change. To change the current behavior of an object go to the "Control" tab and use the controls to switch it, then you can change its icon for this behavior as explaned above.
+Things icons are stored in *FREEDOMOTIC_FOLDER/data/resources*. If you want to edit a thing icon or create a completely new one firstly edit/create the png image used to represent the thing and put it in the folder mentioned above.
+
+Then you have to associate your icon with the thing. To do so right click on a thing and go to **Representation** tab. Click on the **Change Image** button and select your custom image you put in the *FREEDOMOTIC_FOLDER/data/resources* folder. 
+
+Every thing behavior (on, off, etc...) can have a different icon to represent itself, so you have to repeat the operation for every representation you want to change. 
+To change the current behavior of an object go to the **Control** tab and use the controls to switch it, then you can change its icon for this behavior as explaned above.
 
 Connect things to real devices
 ******************************
@@ -71,14 +74,17 @@ To bind an object with a specific protocol you have to right click on the object
 Localization
 ############
 Freedomotic can detect your pc configuration and set the correct language.
+
 If it's not available or you choose the default value **auto** the software uses **English**.
 
-.. image:: images/languages.png
-    :width: 650px
+.. figure:: images/languages.png
+    :width: 600px
     :align: center
-    :height: 450px
+    :height: 400px
     :alt: Freedomotic Multilanguage Support
-
+    :figclass: align-center
+    
+    Multilanguage Support
 
 Automations
 ###########
@@ -119,12 +125,14 @@ Download new features from the marketplace
 In **Plugins** menu choose **Install from marketplace**. After the list is updated (it can take up to a minute) you will see the list of plugins on the markeplace that are available for your current Freedomotic version.
 To install one double click on it and follow the instructions.
 
-.. image:: images/install-from-marketplace.png
-    :width: 650px
+.. figure:: images/install-from-marketplace.png
+    :width: 600px
     :align: center
-    :height: 450px
+    :height: 400px
     :alt: Install plugins from marketplace
-
+    :figclass: align-center
+    
+    Install plugins from marketplace
 
 
 Start and stop plugins
@@ -136,9 +144,9 @@ but only "translates" the Freedomotic user commands as **turn on kitcken light**
 you simply say "turn on kitchen light", and Freedomotic takes care of the rest.
 
 .. figure:: images/plugin-list.png
-    :width: 650px
+    :width: 600px
     :align: center
-    :height: 450px
+    :height: 400px
     :alt: Plugins list
     :figclass: align-center
 
@@ -150,13 +158,14 @@ Some plugins offer a configuration dialog to interact with its features. To show
 For example you can try this on the **"Sensors Simulator"** plugins which is a development tool to simulate a temperature and luminosity sensor.
 You can make this fake sensor notify a temperature change to Freedomotic moving the **temperature** slider. 
 
-.. image:: images/sensors-simulator.png
-    :width: 650px
+.. figure:: images/sensors-simulator.png
+    :width: 600px
     :align: center
-    :height: 450px
+    :height: 400px
     :alt: Sensors Simulator Plugin
+    :figclass: align-center
 
-
+    Simulator Plugin
 
 .. note::  Not all plugins have a configuration dialog so if you right click and nothing shows is because this plugin have no configuration options.
 

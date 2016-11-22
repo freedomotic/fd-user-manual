@@ -93,5 +93,14 @@ Contents:
    Troubleshooting <need-help/troubleshooting>
    FAQ <need-help/faq> 
 
+.. toctree::
+   :caption: Release notes
+   :maxdepth: 2
 
+   New features, upgrades and bug fixes <releases/content-releases>
 
+.. toctree::
+   :caption: Contributor guides
+   :maxdepth: 2
+
+   How to contribute <the-project/how-to-contribute>

@@ -171,7 +171,6 @@ html_static_path = ['_static']
 html_context = {
     'css_files': [
         'https://media.readthedocs.org/css/badge_only.css',
-        '_static/badge_only.css',
         '_static/custom.css',  # css overrides
         ],
     }
@@ -281,7 +280,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'FreedomoticUserManual.tex', u'Freedomotic User Manual Documentation',
+    (master_doc, 'FreedomoticUserManual.tex', u'Freedomotic User Manual',
      u'Freedomotic Team', 'manual'),
 ]
 

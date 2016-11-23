@@ -100,7 +100,7 @@ Contents:
    New features, upgrades and bug fixes <releases/content-releases>
 
 .. toctree::
-   :caption: Contributor guides
+   :caption: Contributor guide
    :maxdepth: 2
 
    How to contribute <the-project/how-to-contribute>

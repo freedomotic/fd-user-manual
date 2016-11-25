@@ -2,9 +2,38 @@
 Download
 ========
 
+Latest stable release (recommended)
+-----------------------------------
 
-Docker container
-----------------
+This is the currently **RECOMMENDED** versions for most users. You can also try the latest dailybuild if you feel brave.
+
++-------------------------------------+--------------+-----------+--------------+-------+
+| Release                             | Java Version | Size (MB) | Release Date | Notes |
++=====================================+==============+===========+==============+=======+
+| freedomotic-commander-5.6.0-rc3.zip | JRE 8+       | 45        | 1 Jul 2016   |       |
++-------------------------------------+--------------+-----------+--------------+-------+
+| freedomotic-commander-5.6.0-rc2.zip | JRE 8+       | 45        | 16 Nov 2015  |       |
++-------------------------------------+--------------+-----------+--------------+-------+
+| freedomotic-commander-5.6.0-rc1.zip | JRE 8+       | 45        | 17 Oct 2015  |       |
++-------------------------------------+--------------+-----------+--------------+-------+
+| freedomotic-bender-5.5.1.zip        | JRE 6+       | 44        | 11 Mar 2014  |       |
++-------------------------------------+--------------+-----------+--------------+-------+
+
+`Downloads statistics on Sourceforge <http://sourceforge.net/projects/freedomotic/files/stats/timeline>`_
+
+Dailybuilds
+-----------
+
+These releases are created daily by our Continuous Integration System on Jetbrains Teamcity. Try one of them if you want to be on the bleeding edge of Freedomotic development.
+
+**These releases are unstable** so don't use them in production environments.
+
+`Download the latest available dailybuild (JRE 8+ required) <http://teamcity.jetbrains.com/guestAuth/repository/download/bt1177/.lastSuccessful/freedomotic-5.6.0-%7Bbuild.number%7D.zip>`_
+
+.. note:: The dailybuilds are created and stored on an external host (teamcity.jetbrains.com). Sometimes it is down due to maintenance, we are sorry for the inconvenience, please be patient.
+
+Docker container (experimental)
+-------------------------------
 
 TO BE COMPLETED
 
@@ -22,3 +51,11 @@ For tech details please go to https://hub.docker.com/r/freedomotic/freedomotic/.
 On next days we'll try to test P2P feature in a docker environment with (at least) two Freedomotic instances. 
 If you think there may be more interesting usage scenarios for such containers, just share!
 
+Debian packages
+---------------
+
+
+Old releases
+------------
+
+Do not use them, these are listed here just for historical reasons. No support will be provided for these versions.

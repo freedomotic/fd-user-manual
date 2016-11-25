@@ -12,7 +12,16 @@ SED Limited society environment management
 #. Hierarchical control between buildings
 #. Hardware/plant
 
-The electrical system globally exploits the use of contactors in bistable relay for the control of devices and not natively provided for a home automation system. The home automation control adapters have been added at a later time and positioned in parallel to preseistente plant, so as to read the status of the devices and also control the contactors. In this perspective, it wanted to show that it is possible to 'extend' a classic system with home automation controls, as well as to limit the planned set of activities and allow for retrofitting low costs.
+.. figure:: images/sednet-totem.jpg
+    :width: 600px
+    :align: center
+    :height: 400px
+    :alt: SED 
+    :figclass: align-center
+    
+    Special Electronic Design
+
+The electrical system globally exploits the use of contactors in bistable relay for the control of devices and not natively provided for a home automation system. The home automation control adapters have been added at a later time and positioned in parallel to a preexisting plant, so as to read the status of the devices and also control the contactors. In this perspective, it wanted to show that it is possible to 'extend' a classic system with home automation controls, as well as to limit the planned set of activities and allow for retrofitting low costs.
 The Easybox cards are therefore used to add a classic on the system advanced features, including:
 
 #. Timing the ignition of the fan coil in order to ensure a homogeneous air conditioning of rooms

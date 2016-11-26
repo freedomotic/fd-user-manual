@@ -46,7 +46,7 @@ How to save a captured image
 ----------------------------
 It's possible to save an image when motion is detected by a camera. The default folder is **FREEDOMOTIC_ROOT\plugins\devices\ipcamera-motion\data\captured-images**.
 
-* Open **Manage Automations** (F7 key) and search the trigger "**IpCamera motion detected**". In the command field write "**Capture image from an IpCamera**". Press **Confirm** and the **OK**. 
+* Open **Manage Automations** (F7 key) and search the trigger "**IpCamera motion detected**". In the command field write "**Capture image from an IpCamera**". Press the **Confirm** button and then **OK** at the bottom of the window.
 
 .. figure:: images/ipcamera-motion-automations.png
     :width: 600px
@@ -57,3 +57,5 @@ It's possible to save an image when motion is detected by a camera. The default 
 
     IPCamera Motion Plugin Automations 
 
+Now for every notified event a message will appear on the map and a snapshot of the camera will be saved in a file named as the following format
+*name-webcam\_date\_hour.jpg*.

@@ -1,16 +1,19 @@
 
-Rest API
-========
+RestAPI
+=======
 
 Freedomotic exposes xml/json Restful API documented with Swagger.
 
-These APIs are implemented by Restapi-v3 plugin, refer to http://freedomotic.com/content/plugins/restapi-v3 for further information.
+These APIs are implemented by :doc:`RestAPIv3 <../plugins/restapiv3>` plugin.
 
-Start Freedomotic on your localhost and go to http://localhost:9111/ to test them live.
+Start Freedomotic and open in your browser the url http://localhost:9111/ to test them.
 
-Or you can try our public demo API (username: admin; password: admin)
+Alternatively you can try our `public demo <http://api.freedomotic.com:9111/>`_ (username: **admin**; password: **admin**)
 
 Swagger UI Example
+
+
+TODO MOVE TO DEVELOPER MANUAL
 
 Advanced topics
 ###############

@@ -1,9 +1,19 @@
 
-SpokenHouse
-===========
+Spoken House
+============
 
-SpokenHouse is a mobile app for users with impaired vision and / or hearing, developed in collaboration between Informatici senza Frontiere and the University of Sannio. 
+**Spoken House** is a mobile app for users with impaired vision and / or hearing, developed in collaboration between Informatici senza Frontiere and the University of Sannio. 
+
 Its interface to 4 corners, along with an electronic voice guidance, allows easy use and an easy navigation within the application.
+
+.. figure:: images/spokenhouse.jpg
+    :width: 600px
+    :align: center
+    :height: 400px
+    :alt: Spoken House
+    :figclass: align-center
+    
+    Spoken House
 
 Features
 --------

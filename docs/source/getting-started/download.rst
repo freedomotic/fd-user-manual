@@ -7,17 +7,17 @@ Latest stable release (recommended)
 
 This is the currently **RECOMMENDED** versions for most users. You can also try the latest dailybuild if you feel brave.
 
-+-------------------------------------+--------------+-----------+--------------+-------+
-| Release                             | Java Version | Size (MB) | Release Date | Notes |
-+=====================================+==============+===========+==============+=======+
-| freedomotic-commander-5.6.0-rc3.zip | JRE 8+       | 45        | 1 Jul 2016   |       |
-+-------------------------------------+--------------+-----------+--------------+-------+
-| freedomotic-commander-5.6.0-rc2.zip | JRE 8+       | 45        | 16 Nov 2015  |       |
-+-------------------------------------+--------------+-----------+--------------+-------+
-| freedomotic-commander-5.6.0-rc1.zip | JRE 8+       | 45        | 17 Oct 2015  |       |
-+-------------------------------------+--------------+-----------+--------------+-------+
-| freedomotic-bender-5.5.1.zip        | JRE 6+       | 44        | 11 Mar 2014  |       |
-+-------------------------------------+--------------+-----------+--------------+-------+
++--------------------------------------------------------------------------------------------------------------------------------+--------------+-----------+--------------+-------+
+| Release                                                                                                                        | Java Version | Size (MB) | Release Date | Notes |
++=====================================+==========================================================================================+==============+===========+==============+=======+
+| `Freedomotic Commander RC3 <https://sourceforge.net/projects/freedomotic/files/freedomotic-commander-5.6.0-rc3.zip/download>`_ | JRE 8+       | 45        | 1 Jul 2016   |       |
++--------------------------------------------------------------------------------------------------------------------------------+--------------+-----------+--------------+-------+
+| `Freedomotic Commander RC2 <https://sourceforge.net/projects/freedomotic/files/freedomotic-commander-5.6.0-rc2.zip/download>`_ | JRE 8+       | 45        | 16 Nov 2015  |       |
++--------------------------------------------------------------------------------------------------------------------------------+--------------+-----------+--------------+-------+
+| `Freedomotic Commander RC1 <https://sourceforge.net/projects/freedomotic/files/freedomotic-commander-5.6.0-rc1.zip/download>`_ | JRE 8+       | 45        | 17 Oct 2015  |       |
++--------------------------------------------------------------------------------------------------------------------------------+--------------+-----------+--------------+-------+
+| `Freedomotic Bender 5.5.1 <https://sourceforge.net/projects/freedomotic/files/freedomotic-bender-5.5.1.zip/download>`_         | JRE 6+       | 44        | 11 Mar 2014  |       |
++--------------------------------------------------------------------------------------------------------------------------------+--------------+-----------+--------------+-------+
 
 `Downloads statistics on Sourceforge <http://sourceforge.net/projects/freedomotic/files/stats/timeline>`_
 
@@ -36,6 +36,7 @@ Docker container (experimental)
 -------------------------------
 
 TO BE COMPLETED
+
 
 For those of you willing to try Freedomotic dailybuild inside a Docker environment, we just created a demo container with some simple usage instructions.
 Given you have docker installed on your machine, giving it a try is as simple as running
@@ -58,4 +59,4 @@ Debian packages
 Old releases
 ------------
 
-Do not use them, these are listed here just for historical reasons. No support will be provided for these versions.
+Do not use them. These are listed here just for historical reasons. No support will be provided for these versions.

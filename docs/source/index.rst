@@ -76,7 +76,20 @@ Contents:
    MQTT Client <plugins/mqtt-client>
    MySensors <plugins/mysensors>
    openPicus Flyport <plugins/openpicus-flyport>
-
+   BTicino OpenWebNet <plugins/openwebnet>
+   Progetti-HwSw Ethernet Board v2 <plugins/progetti-hwsw>
+   pUrl <plugins/purl>
+   Push Notification <plugins/push-notifications>
+   Room based events <plugins/rom-based-events>
+   Sensors simulation <plugins/sensors-simulation>
+   TCW1228-cm <plugins/tcw1228-cm>
+   Telegram Bot <plugins/telegram-bot>
+   TTS Text to Speech <plugins/tts>
+   Twilight - Sunset and sunrise alerts <plugins/twilight>
+   Twitter4Freedomotic <plugins/twitter>
+   Zibase <plugins/zibase>
+   Zwave <plugins/zwave>
+   
    
 .. toctree::
    :caption: Frontend Clients

@@ -2,11 +2,11 @@
 GCE Electronics IPX800
 ======================
 
-**Description**: 
+**Description**: This plugin enables communication between Freedomotic and Ipx800 boards by gce-electronics.com
 
-**Type:**  - **Categories:** 
+**Type:** Driver  - **Categories:** Automation Protocols
 
-**Development status:** 
+**Development status:** Beta version 
 
 **Tested on:** All platforms
 
@@ -19,3 +19,72 @@ Overview
 Configuration
 -------------
 
+The *ipx800-manifest.xml* file contains all the plugin configuration parameters. It's possible to control more than one board setting its parameters into a specific <tuple></tuple> block.
+
+Here an example of configuration file:
+
+.. code:: xml 
+
+  <config>
+     <properties>
+        <property name="description"    value="Communicates with ipx800 board"/>
+        <property name="protocol.name"  value="ipx800"/>
+        <property name="category"       value="protocol"/>
+        <property name="short-name"     value="ipx800"/>
+        <property name="address-delimiter" value=":"/>
+        <property name="startup-time"   value="on load"/>
+        <property name="change-state-relay-url" value="leds.cgi?led="/>
+        <property name="send-pulse-relay-url" value="rlyfs.cgi?rlyf="/>
+        <property name="get-status-url" value="status.xml"/>
+      </properties>
+      <tuples>
+         <tuple>
+            <property name="alias" value="default"/>
+            <property name="ip-to-query" value="ip-board"/>
+            <property name="port-to-query" value="port-board"/>
+            <property name="relay-number" value="8"/>
+            <property name="analog-input-number" value="2"/>
+            <property name="digital-input-number" value="4"/>
+            <property name="starting-relay" value="0"/>
+            <property name="led-tag" value="led"/>
+            <property name="analog-input-tag" value="analog"/>
+            <property name="digital-input-tag" value="btn"/>
+          </tuple>
+      </tuples>
+   </config>
+
+Parameter	Required	Values	Effect	Note
+address-delimiter	yes	: or something else	delimiter for address components	 
+change-state-relay-url	yes	leds.cgi?led=	integrated webserver url for relay changing state	 
+send-pulse-relay-url	yes	rlyfs.cgi?rlyf=	integrated webserver url for relay sending pulse	 
+get-status-url	yes	status.xml	integrated webserver url for retrieving state	 
+For each connected board the parameters are the following
+
+Parameter	Required	Values	Effect	Note
+alias	yes	string	identifies the board	used in the object address
+ip-to-query	yes	ip-address	set the board ip address	 
+port-to-query	yes	 	set the port number	 
+relay-number	yes	 	number of relays	 
+analog-input-number	yes	 	number of analog inputs	 
+digital-input-number	yes	 	number of digital inputs	 
+starting-relay	yes	0 or 1	starting number in status.xml	 
+led-tag	yes	"led"	status.xml tag	for compatibility with previous versions
+analog-input-tag	yes	"analog" or "an"	status.xml tag	for compatibility with previous versions
+digital-input-tag	yes	"btn"	status.xml tag	for compatibility with previous versions
+ 
+How to control an object with this board
+----------------------------------------
+
+With this board you can control the powered behavior of any electric device in your environment, meaning you can turn on/off electric devices.
+
+For this example we use a light thing:
+
+#. Open the file ipx800.xml into *freedomotic/plugins/devices/ipx800* folder and set ip-address and port number of your board
+#. Right click on the light object in the environment to show its configuration panel
+#. Change the property "protocol" to "ipx800"
+#. Change the property "address" to a string composed of ALIAS:RELAY_NUMBER:led  where ALIAS is the string used to identify the board, RELAY_NUMBER is the relay on which your object is connected (from 1 to 8 the maximum number of supported  relays) and led is used to retrieve the relay state from status.xml file.  An example address can be "default:1:led" this identifies the first relay on a board listening on port 80 of the http URL 192.168.201.10
+#. Under "turn on" (in Actions) select the command called "Turn on Relay on Ipx800 board"
+#. Under "turn off" (in Actions) select the command called "Turn off Relay on Ipx800 board"
+#. The plugin is able to read any relay status change and update the object one.
+
+Under "powered" (in Data Sources) select the command called "IPX800 board reads a state change"

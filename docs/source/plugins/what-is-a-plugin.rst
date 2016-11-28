@@ -16,10 +16,6 @@ Plugin features
 #. installation and upgrade of plugins from a marketplace
 #. simplified programming implementing events (onCommand(), onRun(), onStart, onStop(), ...).
 
-How to make a non-Java application communicate with Freedomotic
-###############################################################
-Till now we talked about how to extend Freedomotic with Java plugins. However is possible to make non-Java application communicate with Freedomotic. Take a look at https://github.com/freedomotic/freedomotic/wiki/Freedomotic-APIs
-
 Plugin manifest and configuration
 #################################
 Every Java plugin needs a XML manifest file to describe the plugin to Freedomotic. As multiple plugins can be in the same plugin package

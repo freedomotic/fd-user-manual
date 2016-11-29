@@ -95,7 +95,7 @@ Contents:
    :caption: Frontend Clients
    :maxdepth: 2
 
-   Java Frontend <frontends/jfrontend>
+   Jfrontend <frontends/jfrontend>
    Polymer web client <frontends/polymer-webclient>   
    
 .. toctree::

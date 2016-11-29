@@ -25,18 +25,23 @@ Configuration
 - Set your Google username and password in the manifest file or if you are using **Jfrontend** click on menu **Plugins** -> **Configure** -> **Mailer**. Change only  'username' and 'password'.
 - Save the changes
  
- Parameters
- TODO add table
+ 
+.. csv-table:: Configuration parameters
+   :header: "Property", "Description", "Values"
+   :widths: 15, 40, 40
+
+   
+
 
 Create an automation example
 ----------------------------
 
 - Right click on a thing
-- Switch to **Automations** tab in **Jfronted**
+- Switch to **Automations** tab in **Jfrontend**
 - In the command field corresponding to the trigger ``when OBJECT_NAME object is clicked`` write ``Notify this event by mail``
 - Save changes by pressing **Confirm** and **OK** button.   
 
-.. figure:: images/mailer-automations.png
+.. figure:: images/mailer/mailer-automations.png
     :width: 600px
     :align: center
     :height: 400px
@@ -71,11 +76,16 @@ Send a mail notification
     </properties>
  </command>
 
-You have to change 
 
-- <name></name> with the command name
-- <property name="subject"> with the subject of the mail
-- <property name="message"> with the text of the mail
+
+.. csv-table:: Command parameters
+   :header: "Property", "Description", "Values"
+   :widths: 15, 40, 40
+
+   "name", "Command name", "Any string"
+   "subject", "Mail subject", "Any string"
+   "message", "Mail text", "Any string"
+
 
 Notes
 -----

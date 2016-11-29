@@ -1,10 +1,65 @@
 
-Java Frontend
-=============
+Jfrontend
+=========
 
 
 Environments
 ############
+
+Change renderer
+***************
+
+.. figure:: images/jfrontend/renderer/change-renderer.png
+    :width: 600px
+    :align: center
+    :height: 400px
+    :alt: Change renderer
+    :figclass: align-center
+    
+    Change renderer
+    
+
+.. figure:: images/jfrontend/renderer/photo-renderer.png
+    :width: 600px
+    :align: center
+    :height: 400px
+    :alt: Photo renderer
+    :figclass: align-center
+    
+    Photo renderer
+
+
+.. figure:: images/jfrontend/renderer/list-renderer.png
+    :width: 600px
+    :align: center
+    :height: 400px
+    :alt: List renderer
+    :figclass: align-center
+    
+    List renderer
+
+
+
+.. figure:: images/jfrontend/renderer/image-renderer.png
+    :width: 600px
+    :align: center
+    :height: 400px
+    :alt: Image renderer
+    :figclass: align-center
+    
+    Image renderer
+
+
+.. figure:: images/jfrontend/renderer/plain-renderer.png
+    :width: 600px
+    :align: center
+    :height: 400px
+    :alt: Plain renderer
+    :figclass: align-center
+    
+    Plain renderer
+    
+    
 
 Change background images
 ************************
@@ -71,13 +126,23 @@ First be sure to have the right driver plugin installed. If not install it follo
 
 To bind an object with a specific protocol you have to right click on the object to open its configuration dialog. Now go to the "Commands" tab and bind the object generic actions like "turn on" and "turn off" with the specific hardware command to execute it. For example a light "turn on" action can be bound with "turn on OpenWebNet (OWN) light" command selected from the list on the right.
 
+.. figure:: images/jfrontend/things/thing-configuration.png
+    :width: 600px
+    :align: center
+    :height: 400px
+    :alt: Connect a thing to a real device
+    :figclass: align-center
+    
+    Connect a thing to a real device
+
+
 Localization
 ############
 Freedomotic can detect your pc configuration and set the correct language.
 
 If it's not available or you choose the default value **auto** the software uses **English**.
 
-.. figure:: images/languages.png
+.. figure:: images/jfrontend/localization/languages.png
     :width: 600px
     :align: center
     :height: 400px
@@ -125,7 +190,7 @@ Download new features from the marketplace
 In **Plugins** menu choose **Install from marketplace**. After the list is updated (it can take up to a minute) you will see the list of plugins on the markeplace that are available for your current Freedomotic version.
 To install one double click on it and follow the instructions.
 
-.. figure:: images/install-from-marketplace.png
+.. figure:: images/jfrontend/plugins/install-from-marketplace.png
     :width: 600px
     :align: center
     :height: 400px
@@ -143,7 +208,7 @@ For example the OpenWebNet plugin enables communication with BTicino OpenWebNet 
 but only "translates" the Freedomotic user commands as **turn on kitcken light** into hardware level specific commands. This way you could forget about hardware details and how they communicate internally,
 you simply say "turn on kitchen light", and Freedomotic takes care of the rest.
 
-.. figure:: images/plugin-list.png
+.. figure:: images/jfrontend/plugins/plugin-list.png
     :width: 600px
     :align: center
     :height: 400px
@@ -158,7 +223,7 @@ Some plugins offer a configuration dialog to interact with its features. To show
 For example you can try this on the **"Sensors Simulator"** plugins which is a development tool to simulate a temperature and luminosity sensor.
 You can make this fake sensor notify a temperature change to Freedomotic moving the **temperature** slider. 
 
-.. figure:: images/sensors-simulator.png
+.. figure:: images/jfrontend/plugins/sensors-simulator.png
     :width: 600px
     :align: center
     :height: 400px

@@ -16,7 +16,7 @@ Overview
 --------
 
 
-.. figure:: images/weathershield.jpg
+.. figure:: images/arduino-weathershield/arduino-weathershield.jpg
     :width: 600px
     :align: center
     :height: 400px

@@ -1,5 +1,7 @@
 # Freedomotic User Manual
 
+[![Documentation Status](http://readthedocs.org/projects/freedomotic-user-manual/badge/?version=latest)](http://freedomotic-user-manual.readthedocs.io/en/latest/?badge=latest)
+
 Note: This repository contains _source files_ for the Freedomotic user. It is intended for use by people that want to contribute to the manual.
 
 If you just want to read the guide, **[click here to read the published Freedomotic user manual.](http://freedomotic-user-manual.readthedocs.io/)**

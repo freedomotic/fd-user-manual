@@ -6,19 +6,19 @@ The Freedomotic team consists of a group of enthusiasts who work on the framewor
 
 **Main contributors**
 
-+--------------------------+---------+-------------------------+---------------------------------------------------------------------------------------------------------------+
-| Name                     | From    | Contacts                | Duties                                                                                                        | 
-+==========================+=========+=========================+===============================================================================================================+
-| Enrico Nicoletti         | Italy   | info@freedomotic.com    | Project Founder, Project vision, Core Developer                                                               |
-+--------------------------+---------+-------------------------+---------------------------------------------------------------------------------------------------------------+
-| Mauro Cicolella          | Italy   | mauro@freedomotic.com   | Community Manager, Automation Protocols Integration, Marketing and end-users, Communication, Quality Assurance|
-+--------------------------+---------+-------------------------+---------------------------------------------------------------------------------------------------------------+
-| Gabriel Pulido de Torres | Spain   | gabriel@freedomotic.com | APIs Engineer, Mobile Platform Developer, Product Strategist, Technical Research, Development Workflow Manager|                                                                                                            
-+--------------------------+---------+-------------------------+---------------------------------------------------------------------------------------------------------------+
-| Alberto Mengoli          | Italy   | alberto@freedomotic.com | .Net Frontend Development, Testing, Usability feedback                                                        |   
-+--------------------------+---------+-------------------------+---------------------------------------------------------------------------------------------------------------+
-| Matteo Mazzoni           | Italy   | matteo@freedomotic.com  | Core Developer, APIs Engineer, Plugins Developer, Technical Research                                          |    
-+--------------------------+---------+-------------------------+---------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
+| Name                                                         | From    | Duties                                                                                                        | 
++==============================================================+=========+===============================================================================================================+
+| `Enrico Nicoletti <mailto:info@freedomotic.com>`_            | Italy   | Project Founder, Project vision, Core Developer                                                               |
++--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
+| `Mauro Cicolella <mailto:mauro@freedomotic.com>`_            | Italy   | Community Manager, Automation Protocols Integration, Marketing and end-users, Communication, Quality Assurance|
++--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
+| `Gabriel Pulido de Torres <mailto:gabriel@freedomotic.com>`_ | Spain   | APIs Engineer, Mobile Platform Developer, Product Strategist, Technical Research, Development Workflow Manager|                                                                                                            
++--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
+| `Alberto Mengoli <alberto@freedomotic.com>`_                 | Italy   | .Net Frontend Development, Testing, Usability feedback                                                        |   
++--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
+| `Matteo Mazzoni <matteo@freedomotic.com>`_                   | Italy   | Core Developer, APIs Engineer, Plugins Developer, Technical Research                                          |    
++--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
 
    
 

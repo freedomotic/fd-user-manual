@@ -55,7 +55,8 @@ When you click on this thing you should receive an email with the description of
  
 Others plugins can use the mailer to send custom messages.
 
-Send a mail notification
+Send a mail notification with no attachment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: xml
 
@@ -77,14 +78,39 @@ Send a mail notification
  </command>
 
 
+Send a mail notification with attachment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. csv-table:: Command parameters
+.. code:: xml
+
+ <command>
+    <name>Notify event by mail with attachment</name>
+    <receiver>app.actuators.messaging.mail.in</receiver>
+    <description>send a mail</description>
+    <hardwareLevel>false</hardwareLevel>
+    <delay>0</delay>
+    <timeout>0</timeout>
+    <editable>false</editable>
+    <properties>
+        <properties>
+            <property name="subject" value="A notification from your home"/>
+            <property name="message" value="Event notified: thing @event.description"/>
+            <property name="attachment" value="/home/mauro/Desktop/fd/plugins/devices/mailer/data/cmd/index.txt"/>
+        </properties>
+    </properties>
+ </command>
+
+Command parameters
+------------------
+
+.. csv-table:: 
    :header: "Property", "Description", "Values"
    :widths: 15, 40, 40
 
    "name", "Command name", "Any string"
    "subject", "Mail subject", "Any string"
    "message", "Mail text", "Any string"
+   "attachment", "Absolute path of attachment", "Path string (can't be empty)"
 
 
 Notes

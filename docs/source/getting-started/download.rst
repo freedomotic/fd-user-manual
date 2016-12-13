@@ -35,21 +35,21 @@ These releases are created daily by our Continuous Integration System on Jetbrai
 Docker container (experimental)
 -------------------------------
 
-TO BE COMPLETED
-
-
 For those of you willing to try Freedomotic dailybuild inside a Docker environment, we just created a demo container with some simple usage instructions.
-Given you have docker installed on your machine, giving it a try is as simple as running
+
+Given you have Docker already installed on your machine you can start the container with the following instruction
  
 .. code:: 
       
-      docker run -p 9111:9111 freedomotic/freedomotic
+      docker run -d --name=freedomotic -p 9111:9111 -p 8090:8090 freedomotic/freedomotic
      
 
-RestApi interface will be available on port 9111 of host machine after a few seconds.
+After a few seconds RESTapi interface will be available on port 9111 and the web client on port 8090 of the host machine. 
 For tech details please go to https://hub.docker.com/r/freedomotic/freedomotic/.
 
-On next days we'll try to test P2P feature in a docker environment with (at least) two Freedomotic instances. 
+.. note:: The latest version is mapped to [dailybuild] tag. If you want to try another version please specify the correct tag. 
+
+On next days we'll try to test P2P feature in a Docker environment with (at least) two Freedomotic instances. 
 If you think there may be more interesting usage scenarios for such containers, just share!
 
 Debian packages

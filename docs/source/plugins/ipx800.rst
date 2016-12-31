@@ -19,7 +19,7 @@ Overview
 Configuration
 -------------
 
-The *ipx800-manifest.xml* file contains all the plugin configuration parameters. It's possible to control more than one board setting its parameters into a specific <tuple></tuple> block.
+The *ipx800-manifest.xml* file contains all the plugin configuration parameters. It's possible to control more than one board setting its parameters into a specific ``<tuple></tuple>`` block.
 
 Here an example of configuration file:
 
@@ -53,24 +53,31 @@ Here an example of configuration file:
       </tuples>
    </config>
 
-Parameter	Required	Values	Effect	Note
-address-delimiter	yes	: or something else	delimiter for address components	 
-change-state-relay-url	yes	leds.cgi?led=	integrated webserver url for relay changing state	 
-send-pulse-relay-url	yes	rlyfs.cgi?rlyf=	integrated webserver url for relay sending pulse	 
-get-status-url	yes	status.xml	integrated webserver url for retrieving state	 
+.. csv-table:: 
+   :header: "Parameter","Required","Values","Effect","Note"
+   :widths: 15, 5, 30, 30, 10
+
+    "address-delimiter","yes",": or something else","delimiter for address components"
+    "change-state-relay-url","yes","leds.cgi?led=","integrated webserver url for relay changing state"	 
+    "send-pulse-relay-url","yes","rlyfs.cgi?rlyf=","integrated webserver url for relay sending pulse"	 
+    "get-status-url","yes","status.xml","integrated webserver url for retrieving state"
+    
 For each connected board the parameters are the following
 
-Parameter	Required	Values	Effect	Note
-alias	yes	string	identifies the board	used in the object address
-ip-to-query	yes	ip-address	set the board ip address	 
-port-to-query	yes	 	set the port number	 
-relay-number	yes	 	number of relays	 
-analog-input-number	yes	 	number of analog inputs	 
-digital-input-number	yes	 	number of digital inputs	 
-starting-relay	yes	0 or 1	starting number in status.xml	 
-led-tag	yes	"led"	status.xml tag	for compatibility with previous versions
-analog-input-tag	yes	"analog" or "an"	status.xml tag	for compatibility with previous versions
-digital-input-tag	yes	"btn"	status.xml tag	for compatibility with previous versions
+.. csv-table:: 
+   :header: "Parameter","Required","Values","Effect","Note"
+   :widths: 15, 5, 30, 30, 10
+   
+   "alias","yes","string","identifies the board	used in the object address"
+   "ip-to-query","yes","ip-address","sets the board ip address"
+   "port-to-query","yes","any port number e.g. 80","sets the port number"	 
+   "relay-number","yes","","number of relays"	 
+   "analog-input-number","yes","","number of analog inputs"	 
+   "digital-input-number","yes","","number of digital inputs"	 
+   "starting-relay","yes","0 or 1","starting number in status.xml"	 
+   "led-tag","yes","led","status.xml tag for compatibility with previous versions"
+   "analog-input-tag","yes","analog or an","status.xml tag	for compatibility with previous versions"
+   "digital-input-tag","yes","btn","status.xml tag for compatibility with previous versions"
  
 How to control an object with this board
 ----------------------------------------
@@ -79,12 +86,10 @@ With this board you can control the powered behavior of any electric device in y
 
 For this example we use a light thing:
 
-#. Open the file ipx800.xml into *freedomotic/plugins/devices/ipx800* folder and set ip-address and port number of your board
-#. Right click on the light object in the environment to show its configuration panel
-#. Change the property "protocol" to "ipx800"
-#. Change the property "address" to a string composed of ALIAS:RELAY_NUMBER:led  where ALIAS is the string used to identify the board, RELAY_NUMBER is the relay on which your object is connected (from 1 to 8 the maximum number of supported  relays) and led is used to retrieve the relay state from status.xml file.  An example address can be "default:1:led" this identifies the first relay on a board listening on port 80 of the http URL 192.168.201.10
-#. Under "turn on" (in Actions) select the command called "Turn on Relay on Ipx800 board"
-#. Under "turn off" (in Actions) select the command called "Turn off Relay on Ipx800 board"
-#. The plugin is able to read any relay status change and update the object one.
-
-Under "powered" (in Data Sources) select the command called "IPX800 board reads a state change"
+* Open the file ipx800.xml into *freedomotic/plugins/devices/ipx800* folder and set ip-address and port number of your board
+* Right click on the light object in the environment to show its configuration panel
+* Change the property **protocol** to **ipx800**
+* Change the property "address" to a string composed of **ALIAS:RELAY_NUMBER:led**  where ALIAS is the string used to identify the board, RELAY_NUMBER is the relay on which your object is connected (from 1 to 8 the maximum number of supported  relays) and led is used to retrieve the relay state from status.xml file.  An example address can be "default:1:led" this identifies the first relay on a board listening on port 80 of the http URL 192.168.201.10
+* Under **turn on** (in **Actions**) select the command called ``Turn on Relay on Ipx800 board``
+* Under **turn off** (in **Actions**) select the command called ``Turn off Relay on Ipx800 board``. Now the plugin is able to read any relay status change and update the object one.
+* Under **powered** (in **Data Sources**) select the command called ``IPX800 board reads a state change``

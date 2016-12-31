@@ -15,7 +15,8 @@ Twitter4Freedomotic
 Overview
 --------
 
-This actuator allows Freedomotic to publish messages as status updates on a twitter account. A Twitter account is required to be configured to allow an external application status post messages.
+This plugin allows Freedomotic to publish messages, as status updates, on Twitter.
+A Twitter account is required to be configured to allow an external application status post messages.
 
 This plugin is configured to post on our twitter account @Freedomotic. You can make it post on your account following the instruction below.
 

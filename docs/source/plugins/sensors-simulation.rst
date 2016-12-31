@@ -1,5 +1,5 @@
 
-Sensors Simulation
+Sensors simulation
 ==================
 
 **Description**: 

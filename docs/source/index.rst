@@ -80,6 +80,7 @@ Contents:
    Progetti-HwSw Ethernet Board v2 <plugins/progetti-hwsw>
    pUrl <plugins/purl>
    Push Notification <plugins/push-notifications>
+   RestAPI v3 <plugins/restapi>
    Room based events <plugins/rom-based-events>
    Sensors simulation <plugins/sensors-simulation>
    TCW1228-cm <plugins/tcw1228-cm>

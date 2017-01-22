@@ -62,3 +62,14 @@ Default voices has a very metallic sound. To have more natural sounding voices
 - start Freedomotic
 
 .. note:: Not compatible with openjdk - Oracle jdk required
+
+Video
+-----
+
+.. raw:: html
+
+    <embed>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WvBa30-ibEw" frameborder="0" allowfullscreen></iframe>
+    </embed>
+  
+   

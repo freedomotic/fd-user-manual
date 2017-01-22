@@ -19,6 +19,14 @@ Resources
 ---------
 
 - `Italian Thesis <http://www.slideshare.net/freedomotic/tesi-camerino>`_
-- `Demo Video <https://www.youtube.com/watch?v=Pgzpgh2dlo0>`_
 - `PAss Private Assisted House Project <http://www.projectpass.eu/default.aspx>`_
 - `PAss Forum Pa Challenge SlideShare <http://www.slideshare.net/barbaraunicam/p-ass-forum-pa-challenge>`_
+
+Video
+-----
+
+.. raw:: html
+
+    <embed>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Pgzpgh2dlo0" frameborder="0" allowfullscreen></iframe>
+    </embed>

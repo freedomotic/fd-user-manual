@@ -85,6 +85,7 @@ Contents:
    Sensors simulation <plugins/sensors-simulation>
    TCW1228-cm <plugins/tcw1228-cm>
    Telegram Bot <plugins/telegram-bot>
+   ThingSpeak <plugins/thingspeak>
    TTS Text to Speech <plugins/tts>
    Twilight - Sunset and sunrise alerts <plugins/twilight>
    Twitter4Freedomotic <plugins/twitter>

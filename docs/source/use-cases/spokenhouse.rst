@@ -47,6 +47,6 @@ Resources
 
 * Presentation on Prezi.com http://prezi.com/7pkirffztvwb/?utm_campaign=share&utm_medium=copy
 
-* :doc:`All material (slides and complete thesis)<../who-is-using-freedomotic/academic-papers>`
+* :doc:`Slides and complete thesis <../who-is-using-freedomotic/academic-papers>`
 
 *A great thanks to the neo engineers Marco Di Brino, Daniela Guardabascio, Giuseppe Ristaino, the faculty Prof. Lerina Aversano and Prof. Maria Tortorella and the representatives of Informatici Senza Frontiere  Dr. Manuel Parrella and Ing. Adia Barretta.*

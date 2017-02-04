@@ -1,12 +1,12 @@
 
-Base Home Automation Things
+Base home automation things
 ===========================
 
-**Description**: 
+**Description**: The base things for home automation like on/off electric devices, lights, doors, sensors and toggle buttons
 
-**Type:**  - **Categories:** 
+**Type:**  - **Categories:**  Access Control & Security, Lighting, Localization & Positioning 
 
-**Development status:** 
+**Development status:** Stable Release
 
 **Tested on:** All platforms
 
@@ -14,6 +14,8 @@ Base Home Automation Things
 
 Overview
 --------
+
+
 
 
 Configuration

@@ -18,7 +18,7 @@ This should simplify as much as possible the daily operations inside the house. 
 Resources
 ---------
 
-- `Italian Thesis <http://www.slideshare.net/freedomotic/tesi-camerino>`_
+- `Italian thesis <http://www.slideshare.net/freedomotic/tesi-camerino>`_
 - `PAss Private Assisted House Project <http://www.projectpass.eu/default.aspx>`_
 - `PAss Forum Pa Challenge SlideShare <http://www.slideshare.net/barbaraunicam/p-ass-forum-pa-challenge>`_
 

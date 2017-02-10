@@ -107,10 +107,10 @@ Command parameters
    :header: "Property", "Description", "Values"
    :widths: 15, 40, 40
 
-   "name", "Command name", "Any string"
-   "subject", "Mail subject", "Any string"
-   "message", "Mail text", "Any string"
-   "attachment", "Absolute path of attachment", "Path string (can't be empty)"
+   "name", "command name", "any string"
+   "subject", "mail subject", "any string"
+   "message", "mail text", "any string"
+   "attachment", "absolute path of attachment", "path string (can't be empty)"
 
 
 Notes
@@ -118,4 +118,4 @@ Notes
 
 Be aware that your firewall can block the sending of the email. Check the firewall settings.
 
-Also, if needed, go to https://www.google.com/settings/security/lesssecureapps and enable "the less secure apps" option.
+Also, if needed, go to https://www.google.com/settings/security/lesssecureapps and enable "**the less secure apps**" option.

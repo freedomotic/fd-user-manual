@@ -19,3 +19,9 @@ Overview
 Configuration
 -------------
 
+Supported objects
+-----------------
+
+* Light
+* Thermostat
+* Light sensor

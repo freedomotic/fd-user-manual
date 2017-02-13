@@ -3,39 +3,38 @@ Basic configuration
 
 All the configuration parameters are included in the file *FREEDOMOTIC_ROOT/config/config.xml*.
 
+Default values are put in squared brackets.
+
 
 Basic
 ~~~~~
 
-* **KEY_BROKER_URL [vm\://localhost?persistent\=false]**:
-* **KEY_MESSAGES_TTL [5000]**:
-* **KEY_ENABLE_SSO [false]**:
-* **KEY_SHOW_WEBSITE_ON_STARTUP [false]**:
+These properties are used to start the framework so **don't change the default values** if not strictly needed.
+
+* **KEY_BROKER_URL [vm\://localhost?persistent\=false]**: ActiveMQ broker url
+* **KEY_MESSAGES_TTL [5000]**: messages time to live
 * **KEY_DISCARD_INVALID_DESTINATIONS [true]**:
-* **P2P_CLUSTER_NAME [freedomotic-commander]**:
-* **KEY_COLORED_PEOPLE [false]**:
-* **KEY_JAVACOM_LIB [../ext]**:
 
 
 Internationalization
 ~~~~~~~~~~~~~~~~~~~~
 
-* **KEY_ENABLE_I18N [auto]**:
+* **KEY_ENABLE_I18N [auto]**: enable/disable multilanguage support (for more details :doc:`click here <../internationalization/i18n>`)
 
 
 Logging
 ~~~~~~~
 
-* **KEY_SAVE_LOG_TO_FILE [OFF]**:
-* **ADMIN_SENDING_ADDRESS [issue.reporter@freedomotic.com]**:
-* **ADMIN_RECIPIENT_ADDRESS [mauro@freedomotic.com]**:
+* **KEY_SAVE_LOG_TO_FILE [OFF]**: enable/disable logging to file (for more details :doc:`click here <../need-help/logging>`)
+* **ADMIN_SENDING_ADDRESS [issue.reporter@freedomotic.com]**: sending email address of log reports (don't change it)
+* **ADMIN_RECIPIENT_ADDRESS [mauro@freedomotic.com]**: recipient address for log (don't change it if you want to send the log to the Freedomotic team)
 
 
 Plugins Marketplace
 ~~~~~~~~~~~~~~~~~~~
 
-* **CACHE_MARKETPLACE_ON_STARTUP [false]**:
-* **KEY_ENABLE_PLUGINS_DOWNLOAD [true]**:
+* **CACHE_MARKETPLACE_ON_STARTUP [false]**: enable/disable plugins caching on startup
+* **KEY_ENABLE_PLUGINS_DOWNLOAD [true]**: enable/disable plugins download from marketplace
 
 
 
@@ -54,6 +53,12 @@ Persistence
 * **KEY_OVERRIDE_REACTIONS_ON_EXIT [true]**:
 * **KEY_OVERRIDE_OBJECTS_ON_EXIT [true]**:
 
+
+P2P
+~~~
+
+* **P2P_CLUSTER_NAME [freedomotic-commander]**: cluster name used to identify the instance in a p2p network
+
 Resources
 ~~~~~~~~~
 
@@ -65,4 +70,5 @@ Resources
 Security
 ~~~~~~~~
 
+* **KEY_ENABLE_SSO [false]**: enable/disable single sign-on for authentication
 * **KEY_SECURITY_ENABLE [true]**:

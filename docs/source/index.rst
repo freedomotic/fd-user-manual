@@ -47,6 +47,7 @@ Contents:
    Download <getting-started/download>
    Installation <getting-started/installation>
    Basic configuration <getting-started/basic-configuration>
+   Internationalization <internationalization/i18n>
    
 .. toctree::
    :caption: Plugins

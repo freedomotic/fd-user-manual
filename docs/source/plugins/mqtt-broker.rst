@@ -24,4 +24,25 @@ By default it uses 0.0.0.0 as server ip and 1883 as port number.
 
 If you want to customize them please edit the previous properties in *mqtt-broker-manifest.xml* file located in the plugin folder.
 
+How to manage a thing
+---------------------
 
+* In **Jfrontend** add a thing on the map. Right click on its icon, go to **Control Panel** and set **mqtt-broker** in the protocol field and the mqtt topic in the **address** field. 
+
+* In **Data Source** panel select **MQTT reads a value** in the trigger list.
+
+
+
+Multiple behaviors
+------------------
+
+Video
+-----
+
+.. raw:: html
+
+    <embed>
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/sE9sltct_iE" frameborder="0" allowfullscreen></iframe>  </embed>
+    </embed>
+    
+    

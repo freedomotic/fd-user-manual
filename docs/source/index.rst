@@ -77,6 +77,7 @@ Contents:
    MQTT Client <plugins/mqtt-client>
    MySensors <plugins/mysensors>
    openPicus Flyport <plugins/openpicus-flyport>
+   openPicus Grove System <plugins/openpicus-grove-system>
    BTicino OpenWebNet <plugins/openwebnet>
    Progetti-HwSw Ethernet Board v2 <plugins/progetti-hwsw>
    pUrl <plugins/purl>

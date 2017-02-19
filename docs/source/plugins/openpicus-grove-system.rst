@@ -111,6 +111,7 @@ The build process
 * Click the “Compile” button, and when the operation is completed click “Download” so that the new firmware is downloaded in the Flyport's microcontroller.
 
 **Hardware**
+
 Let's connect the analog sensors to the Grove Nest: temperature sensor to AN1 and light sensor to AN3.
 
 Then let's connect the flyport wifi module and the power supply.

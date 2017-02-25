@@ -60,6 +60,7 @@ Version 5.6 RC3 (Commander)
 * Switched from JUL to SLF4j (logging)
 * Extended extra conditions in Reactions (aka Automations)
 * Updated javadoc
+* Added periodic saving for commands/triggers/reactions
 
 **Extra packaging**
 
@@ -67,6 +68,8 @@ Version 5.6 RC3 (Commander)
 * Docker images
 
 **GUI Frontend**
+
+* Added option for sending logs via email
 
 **Docs**
 
@@ -79,7 +82,9 @@ New plugins:
 
 * MQTT (broker and client)
 * MySensors
+* Persistence (under development)
 * Push notifications
+* Telegram Bot (under development)
 * ThingSpeak
 
 New Things:

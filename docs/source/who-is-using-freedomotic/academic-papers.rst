@@ -16,3 +16,5 @@ Academic papers & thesis
 
 * Ristaino, G. (2015). *"Evoluzione di un'applicazione mobile cross platform per il supporto domotico ad utenti non udenti"*, Master Thesis, University of Sannio (Italy). `Thesis <http://www.slideshare.net/freedomotic/evoluzione-di-unapplicazione-mobile-cross-platform-per-il-supporto-domotico-ad-utenti-non-udenti>`_ - `Slides <http://www.slideshare.net/freedomotic/presentazione-tesiristaino>`_ - `App Android <https://play.google.com/store/apps/details?id=org.informaticisenzafrontiere.spokenHouse&hl=it>`_
    
+* Trivellato, R. (2017). *"Sistemi domotici integrati per la gestione intelligente d’ambiente"*, Master Thesis, University of Padova (Italy). `Thesis <https://www.slideshare.net/freedomotic/sistemi-domotici-integrati-per-la-gestione-intelligente-dambiente>`_ - `Slides <https://www.slideshare.net/freedomotic/sistemi-domotici-integrati-per-la-gestione-intelligente-dambiente-72729342>`_ 
+   

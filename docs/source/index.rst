@@ -79,6 +79,7 @@ Contents:
    openPicus Flyport <plugins/openpicus-flyport>
    openPicus Grove System <plugins/openpicus-grove-system>
    BTicino OpenWebNet <plugins/openwebnet>
+   Persistence <plugins/persistence>
    Progetti-HwSw Ethernet Board v2 <plugins/progetti-hwsw>
    pUrl <plugins/purl>
    Push Notification <plugins/push-notifications>

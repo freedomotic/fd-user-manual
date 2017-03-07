@@ -1,6 +1,6 @@
 
-Sensors simulation
-==================
+Sensors and tracking simulation
+===============================
 
 **Description**: A must have set of basic plugins like a clock to enable timed automations, automations editing and a set of sensors and tracking simulators, performance trackers, log viewer for both developers and users
 
@@ -12,12 +12,45 @@ Sensors simulation
 
 **Developer:** Enrico Nicoletti
 
-Sensors simulation
-------------------
+.. note:: This plugin is included in the package distribution
 
-Tracking simulator random
--------------------------
+Sensors simulator
+-----------------
 
+With this plugin you can 
+
+* simulate luminosity or temperature changing
+* ask user something
+* add a new object using JoinDevice command
+* execute free-text commands (e.g. write "turn on all lights")
+
+.. figure:: images/simulation/sensors-simulation.png
+    :width: 600px
+    :align: center
+    :height: 400px
+    :alt: Sensors simulation
+    :figclass: align-center
+
+    Sensors simulation 
+
+Tracking simulation
+-------------------
+You can simulate user's movements inside your environment.
+First of all add an "user" thing to the map.
+
+.. figure:: images/simulation/add-user.png
+    :width: 600px
+    :align: center
+    :height: 400px
+    :alt: Add an user to the map
+    :figclass: align-center
+
+    Add an user to the map 
+
+Tracking simulator (Random)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Each user thing on the map is moved to a random position with a time interval specified by the ``sleep-time`` property.
 
 .. csv-table:: Configuration parameters
    :header: "Property", "Description", "Values"
@@ -26,15 +59,23 @@ Tracking simulator random
    "sleep-time","","2000"   
    
 
-Tracking simulator read file
-----------------------------
+Tracking simulator (Read file)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 This plugin reads user's positions from a file.
 
-This file, located under *FREEDOMOTIC_ROOT/plugins/devices/simulation/data/motes* has *.mote* extension and its name must reflect the user thing one (e.g. if the user is named *admin* the tracking file must be *admin.mote*. 
+This file, located under *FREEDOMOTIC_ROOT/plugins/devices/simulation/data/motes*, has *.mote* extension and its name must reflect the user thing one (e.g. if the user is named *admin* the tracking file must be *admin.mote*. 
 
-We have two options for the positions: coordinates or room/zone names.
+We have two options for the positions: **coordinates** or **room/zone** names.
 
-In the second case the *.mote* file has the following structure [room name, time in ms]
+In the first case the *.mote* file has the following data format [x coord, y coord, time in ms].
+
+.. code::
+
+   300,250,2000
+   450,390,5000
+
+Alternatively you can use the format [room name, time in ms].
 
 .. code::
 
@@ -46,10 +87,12 @@ In the second case the *.mote* file has the following structure [room name, time
     :width: 600px
     :align: center
     :height: 400px
-    :alt: Mote file example
+    :alt: Mote file example (room/zone format)
     :figclass: align-center
 
-    Mote file example 
+    Mote file example (room/zone format)
+
+In every case each row represents a different movement.
 
 .. figure:: images/simulation/tracking-simulator4.png
     :width: 600px
@@ -60,7 +103,7 @@ In the second case the *.mote* file has the following structure [room name, time
 
     Tracking log 
 
-In the previous example the user thing is moved to the Kitchen where it stays for 2 seconds then goes to the Bedroom and after 5 seconds to house.
+In the previous example the user thing is moved to the Kitchen where it stays for 2 seconds then goes to the Bedroom and after 5 seconds to the House.
 The last zone House doesn't exist so it's skipped. 
 
 
@@ -71,12 +114,12 @@ The last zone House doesn't exist so it's skipped.
    :header: "Property", "Description", "Values"
    :widths: 15, 40, 40
 
-   "data-type","","coordinates | rooms"
-   "iterations","",2"
+   "data-type","data format in the .mote file","coordinates | rooms"
+   "iterations","how many times the movements sequence must be executed","any integer > 0"
 
 
-Tracking simulator read socket
-------------------------------
+Tracking simulator (Read socket)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table:: Configuration parameters
    :header: "Property", "Description", "Values"
@@ -84,7 +127,7 @@ Tracking simulator read socket
 
    "socket-server-port","","7777"
    "sleep-time","","1000"
-   "max-connections","","integer greater than 0 | -1 no limits"
+   "max-connections","","any integer > 0 or -1 no limits"
    "stop-connection-char","","."
 
 

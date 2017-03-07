@@ -12,6 +12,7 @@ Mailer
 
 **Developer:** Enrico Nicoletti
 
+
 .. note:: From 5.6.0 version it's included in the package distribution
 
 Overview

@@ -25,8 +25,8 @@ This plugin post messages on a twitter account so it needs to know the OAuth par
 The following parameters have to be defined in the xml that you can find under *FREEDOMOTIC_ROOT_FOLDER/plugin/devices/twitter/twitter-actuator.xml*.
 
 .. csv-table:: 
-   :header: "Parameter", "Required", "Values"
-   :widths: 15, 10, 60
+   :header: "Parameter","Required","Values"
+   :widths: 15,10,60
 
    "OAuthConsumerKey","yes","see next section "How to obtain the OAuth parameters"
    "OAuthConsumerSecret","yes","see next section "How to obtain the OAuth parameters"

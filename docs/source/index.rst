@@ -85,7 +85,7 @@ Contents:
    Push Notification <plugins/push-notifications>
    RestAPI v3 <plugins/restapi>
    Room based events <plugins/rom-based-events>
-   Sensors simulation <plugins/sensors-simulation>
+   Sensors and tracking simulation <plugins/sensors-simulation>
    TCW1228-cm <plugins/tcw1228-cm>
    Telegram Bot <plugins/telegram-bot>
    ThingSpeak <plugins/thingspeak>

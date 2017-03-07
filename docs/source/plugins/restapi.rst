@@ -12,6 +12,8 @@ RestAPI v3
 
 **Developer:** Matteo Mazzoni
 
+.. note:: This plugin is included in the package distribution
+
 Overview
 --------
 

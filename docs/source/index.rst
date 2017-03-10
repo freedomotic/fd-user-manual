@@ -56,11 +56,16 @@ Contents:
    What is a plugin? <plugins/what-is-a-plugin>
    Plugin installation <plugins/plugin-installation>
    Plugin configuration <plugins/plugin-configuration>
-   Plugins list <plugins/plugins-list>
+
+   
+.. toctree::
+   :caption: Devices plugins
+   :maxdepth: 2   
+   
+   Devices plugins list <plugins/devices-plugins-list>
    Arduino Remote Controller <plugins/arduino-remote-controller>
    Arduino Serial Communication <plugins/arduino-serial-communication>
    Arduino WeatherShield <plugins/arduino-weathershield>
-   Base Home Automation Things <plugins/base-things>
    BT Speech Recognition <plugins/bt-speech-recognition>
    Chat Plugin <plugins/chat>
    Denkovi USB Four(4) Relay Output Module <plugins/denkovi-usb-4-relay-board>
@@ -94,7 +99,12 @@ Contents:
    Twitter4Freedomotic <plugins/twitter>
    Zibase <plugins/zibase>
    Zwave <plugins/zwave>
-   
+ 
+.. toctree::
+   :caption: Objects plugins
+   :maxdepth: 2  
+
+   Base Home Automation Things <plugins/base-things>   
    
 .. toctree::
    :caption: Frontend Clients

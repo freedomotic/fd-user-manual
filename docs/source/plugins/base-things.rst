@@ -12,6 +12,8 @@ Base home automation things
 
 **Developer:** Enrico Nicoletti
 
+.. note:: This plugin is included in the package distribution
+
 Overview
 --------
 

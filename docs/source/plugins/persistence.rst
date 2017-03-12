@@ -40,30 +40,30 @@ Moreover, you can also specify both the replication factor and strategy of the s
 
 Here follows an example of manifest.
 
-.. code-block:: xml
+ .. code:: xml
 
-<config>
-	<properties>
-		<property name="description"
-			value="Cassandra database for storing Freedomotic events and commands" />
-		<property name="name" value="persistence" />
-		<property name="category" value="protocol" />
-		<property name="short-name" value="persistence" />
-		<property name="protocol.name" value="persistence" />
-		<property name="startup-time" value="on load" />
-		<!-- Cassandra configuration -->
+  <config>
+	 <properties>
+		  <property name="description"
+		    value="Cassandra database for storing Freedomotic events and commands" />
+		  <property name="name" value="persistence" />
+		  <property name="category" value="protocol" />
+		  <property name="short-name" value="persistence" />
+		  <property name="protocol.name" value="persistence" />
+		  <property name="startup-time" value="on load" />
+		  <!-- Cassandra configuration -->
 		
-		<property name="cassandra.host" value='127.0.0.1'/>
-		<property name="cassandra.port" value='7000'/>
-		<property name="cassandra.keyspace" value='freedomotic'/>
-		<property name="cassandra.replicationFactor" value='1'/>
-		<property name="cassandra.strategy" value='SimpleStrategy'/>
-		<property name="cassandra.user" value='user'/>
-		<property name="cassandra.password" value='password'/>
+		  <property name="cassandra.host" value='127.0.0.1'/>
+		  <property name="cassandra.port" value='7000'/>
+		  <property name="cassandra.keyspace" value='freedomotic'/>
+		  <property name="cassandra.replicationFactor" value='1'/>
+		  <property name="cassandra.strategy" value='SimpleStrategy'/>
+		  <property name="cassandra.user" value='user'/>
+		  <property name="cassandra.password" value='password'/>
 		
-		<!--  end of cassandra configuration -->
-	</properties>
-</config>
+		  <!--  end of cassandra configuration -->
+	 </properties>
+  </config>
 
 
 The properties for the Cassandra instance configuration are:

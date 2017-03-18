@@ -14,6 +14,7 @@ These properties are used to start the framework so **don't change the default v
 * **KEY_BROKER_URL [vm\://localhost?persistent\=false]**: ActiveMQ broker url
 * **KEY_MESSAGES_TTL [5000]**: messages time to live
 * **KEY_DISCARD_INVALID_DESTINATIONS [true]**:
+* **INSTANCE_ID [random uuid]**: uuid of Freedomotic instance
 
 
 Internationalization
@@ -71,4 +72,4 @@ Security
 ~~~~~~~~
 
 * **KEY_ENABLE_SSO [false]**: enable/disable single sign-on for authentication
-* **KEY_SECURITY_ENABLE [true]**:
+* **KEY_SECURITY_ENABLE [true]**: enable/disable authentication

@@ -46,6 +46,11 @@ Contents:
    Requirements <getting-started/requirements>
    Download <getting-started/download>
    Installation <getting-started/installation>
+   Windows installation <getting-started/windows-installation>
+   Linux installation <getting-started/linux-installation>
+   Mac OsX installation <getting-started/macosx-installation>
+   Raspberry Pi installation <getting-started/raspberrypi-installation>
+   Docker container <getting-started/docker-container>
    Basic configuration <getting-started/basic-configuration>
    Internationalization <internationalization/i18n>
    

@@ -12,6 +12,8 @@ Academic papers & thesis
 
 * Würth, M. (2015). *"Evaluación de Middlewares Sensibles al Contexto"*, Master Thesis, Universitad ORT (Uruguay). `Thesis <https://bibliotecas.ort.edu.uy/bibid/83121/file/2457>`_
 
+* Shahzada, A. (2015). *"A comprehensive framework for the development of dynamic smart spaces"*, Doctoral Dissertation, Politecnico of Milan (Italy). `Thesis <https://www.politesi.polimi.it/bitstream/10589/114183/1/thesis.pdf>`_
+
 * Di Brino, M. (2015). *"SpokenHouse: applicazione mobile cross-platform di supporto ai non vedenti per il controllo domotico. Interfacciamento con un framework domotico"*, Master Thesis, University of Sannio (Italy). `Thesis <http://www.slideshare.net/freedomotic/spokenhouse-applicazione-mobile-crossplatform-di-supporto-ai-non-vedenti-per-il-controllo-domotico-interfacciamento-con-un-framework-domotico>`_ - `Slides <http://www.slideshare.net/freedomotic/presentazione-marco-56445907>`_ - `Video <https://www.youtube.com/watch?v=2VYdJhI3RFY>`_
 
 * Guardabascio, D. (2015). *"SpokenHouse: applicazione mobile cross-platform di supporto ai non vedenti per il controllo domotico. Interazione con l'utente e usabilità"*, Master Thesis, University of Sannio (Italy). `Thesis <http://www.slideshare.net/freedomotic/spokenhouse-applicazione-mobile-crossplatform-di-supporto-ai-non-vedenti-per-il-controllo-domotico-interazione-con-lutente-e-usabilit>`_ - `Slides <http://www.slideshare.net/freedomotic/presentazione-guardabascio-56445906>`_

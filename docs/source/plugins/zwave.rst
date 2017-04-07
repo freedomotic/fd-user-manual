@@ -1,6 +1,5 @@
-
-Zwave
-=====
+Z-Wave
+======
 
 **Description**: This plugin allows interfacing with zwave-powered devices
 

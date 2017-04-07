@@ -76,6 +76,7 @@ Contents:
    Denkovi USB Four(4) Relay Output Module <plugins/denkovi-usb-4-relay-board>
    Devantech Ltd Eth-Rly16 <plugins/arduino-serial-communication>
    Google Calendar Events <plugins/google-calendar>
+   Harvester <plugins/harvester>
    HWg-STE Ethernet thermometer <plugins/hwg-ste>
    IpCamera Motion <plugins/ipcamera-motion>
    GCE Electronics IPX800 <plugins/ipx800>
@@ -103,7 +104,7 @@ Contents:
    Twilight - Sunset and sunrise alerts <plugins/twilight>
    Twitter4Freedomotic <plugins/twitter>
    Zibase <plugins/zibase>
-   Zwave <plugins/zwave>
+   Z-Wave <plugins/zwave>
  
 .. toctree::
    :caption: Objects plugins

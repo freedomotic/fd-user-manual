@@ -19,6 +19,8 @@ Academic papers & thesis
 * Guardabascio, D. (2015). *"SpokenHouse: applicazione mobile cross-platform di supporto ai non vedenti per il controllo domotico. Interazione con l'utente e usabilità"*, Master Thesis, University of Sannio (Italy). `Thesis <http://www.slideshare.net/freedomotic/spokenhouse-applicazione-mobile-crossplatform-di-supporto-ai-non-vedenti-per-il-controllo-domotico-interazione-con-lutente-e-usabilit>`_ - `Slides <http://www.slideshare.net/freedomotic/presentazione-guardabascio-56445906>`_
 
 * Ristaino, G. (2015). *"Evoluzione di un'applicazione mobile cross platform per il supporto domotico ad utenti non udenti"*, Master Thesis, University of Sannio (Italy). `Thesis <http://www.slideshare.net/freedomotic/evoluzione-di-unapplicazione-mobile-cross-platform-per-il-supporto-domotico-ad-utenti-non-udenti>`_ - `Slides <http://www.slideshare.net/freedomotic/presentazione-tesiristaino>`_ - `App Android <https://play.google.com/store/apps/details?id=org.informaticisenzafrontiere.spokenHouse&hl=it>`_
+
+* Jarraya A., Ramoly N., Bouzeghoub A., Arour K., Borgi A., Finance B. (2016). *"A fuzzy semantic CEP model for situation identification in smart homes"*, Conference Paper, European Conference on Artificial Intelligence - The Hague (Holland). `Paper <http://ebooks.iospress.nl/publication/44978>`_ 
    
 * Trivellato, R. (2017). *"Sistemi domotici integrati per la gestione intelligente d’ambiente"*, Master Thesis, University of Padova (Italy). `Thesis <https://www.slideshare.net/freedomotic/sistemi-domotici-integrati-per-la-gestione-intelligente-dambiente>`_ - `Slides <https://www.slideshare.net/freedomotic/sistemi-domotici-integrati-per-la-gestione-intelligente-dambiente-72729342>`_ 
    

@@ -25,18 +25,18 @@ Automations examples
 
 Text to speech plugin comes with these predefined **commands** as 
 
-* say current time
-* say current temperature of the termometer
-* say electric device status
-* say door/window status
-* say readed motion level
+* ``say current time``
+* ``say current temperature of the termometer``
+* ``say electric device status``
+* ``say door/window status``
+* ``say readed motion level``
 
 which can be attached to any trigger to creates **automations** like:
 
-* "if an object is clicked" -> "say electric device status"
-* "a door becomes open" -> "say door/window status"
+* ``if an object is clicked`` -> ``say electric device status``
+* ``a door becomes open`` -> ``say door/window status``
 
-...and so on
+... and so on
 
 How to create new custom commands
 ---------------------------------
@@ -51,7 +51,7 @@ Now your command will be available to be used in automations.
 How to install better, natural sounding voices
 ----------------------------------------------
 
-Default voices has a very metallic sound. To have more natural sounding voices 
+Default voices have a very metallic sound. To have more natural sounding voices 
 
 - go to the mbrola project website and download the **mbrola** executable for your operative system (under "getting the mbrola binary"). For Linux download from here. For Windows download from here 
 - unzip the downloaded archive
@@ -65,7 +65,6 @@ Default voices has a very metallic sound. To have more natural sounding voices
 
 Video
 -----
-
 .. raw:: html
 
     <embed>

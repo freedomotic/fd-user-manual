@@ -14,13 +14,14 @@ Contents:
    The project history <the-project/project-history>
    Team <the-project/team>
    Features <the-project/features>
-
+   Press & Presentations <the-project/press>
    
 .. toctree::
    :caption: Who is using Freedomotic?
    :maxdepth: 2
 
    Academic papers & thesis <who-is-using-freedomotic/academic-papers>
+   Thesis proposals<who-is-using-freedomotic/thesis-proposals>
    
 .. toctree::
    :caption: Use cases

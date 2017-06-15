@@ -108,9 +108,10 @@ Contents:
    Z-Wave <plugins/zwave>
  
 .. toctree::
-   :caption: Objects plugins
+   :caption: Things (objects) plugins
    :maxdepth: 2  
 
+   Things (objects) plugins list <plugins/objects-plugins-list>
    Base Home Automation Things <plugins/base-things>   
    
 .. toctree::

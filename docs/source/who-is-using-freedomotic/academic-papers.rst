@@ -2,7 +2,7 @@
 Academic papers & thesis
 ========================
 
-
+* Nicoletti, E. (2009). *"Progetto e realizzazione di una piattaforma di programmazione per applicazioni domotiche"*, Master Thesis, University of Trento (Italy).       
 
 * Bravi, M. (2014). *"Definizione e sviluppo di un sistema di configurazione per Private Assisted House"*, Master Thesis, University of Camerino (Italy). `Thesis <http://goo.gl/Mk2xyu>`_ - `Video <https://www.youtube.com/watch?v=1S7eYwwVB30>`_       
 

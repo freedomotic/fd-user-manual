@@ -10,6 +10,8 @@ This is the currently **RECOMMENDED** versions for most users. You can also try 
 +--------------------------------------------------------------------------------------------------------------------------------+--------------+-----------+--------------+-------+
 | Release                                                                                                                        | Java Version | Size (MB) | Release Date | Notes |
 +=====================================+==========================================================================================+==============+===========+==============+=======+
+| `Freedomotic Commander RC4 <https://sourceforge.net/projects/freedomotic/files/freedomotic-commander-5.6.0-rc4.zip/download>`_ | JRE 8+       | 52        | 16 Aug 2017  |       |
++--------------------------------------------------------------------------------------------------------------------------------+--------------+-----------+--------------+-------+
 | `Freedomotic Commander RC3 <https://sourceforge.net/projects/freedomotic/files/freedomotic-commander-5.6.0-rc3.zip/download>`_ | JRE 8+       | 45        | 1 Jul 2016   |       |
 +--------------------------------------------------------------------------------------------------------------------------------+--------------+-----------+--------------+-------+
 | `Freedomotic Commander RC2 <https://sourceforge.net/projects/freedomotic/files/freedomotic-commander-5.6.0-rc2.zip/download>`_ | JRE 8+       | 45        | 16 Nov 2015  |       |

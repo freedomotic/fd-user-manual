@@ -30,4 +30,4 @@ The Freedomotic team consists of a group of enthusiasts who work on the framewor
    "Niko Zarzani","Italy","UI Development"
    "Roberto Socrates","Spain","Core Developer, Software architect"
    
-Many other developers have contributed to the project. `Here <https://github.com/freedomotic/freedomotic/graphs/contributors>`_ the complete list.
+Many other developers have contributed to the project. `Here <https://github.com/freedomotic/freedomotic/graphs/contributors>`_  is the complete list.

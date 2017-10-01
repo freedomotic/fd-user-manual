@@ -5,10 +5,10 @@ SED Special Electronic Design
 SED Limited society environment management
 
 #. Remote access
-#. Automations aimed at limiting consumption
-#. Device automations override
+#. Automations aimed at limited consumption
+#. Device automation override
 #. Granular user privileges
-#. Verification of consumpion of variable temporal arc
+#. Verification of consumption of variable temporal arc
 #. Hierarchical control between buildings
 #. Hardware/plant
 
@@ -21,12 +21,12 @@ SED Limited society environment management
     
     Special Electronic Design
 
-The electrical system globally exploits the use of contactors in bistable relay for the control of devices and not natively provided for a home automation system. The home automation control adapters have been added at a later time and positioned in parallel to a preexisting plant, so as to read the status of the devices and also control the contactors. In this perspective, it wanted to show that it is possible to 'extend' a classic system with home automation controls, as well as to limit the planned set of activities and allow for retrofitting low costs.
+The electrical system globally exploits the use of contactors in bistable relay for the control of devices that are not natively provided for a home automation system. The home automation control adapters have been added at a later stage and positioned in parallel to a pre-existing plant, in order to read the status of the devices and control the contactors. In this perspective, it wanted to show that it is possible to 'extend' a classic system with home automation controls, also to limit the planned set of activities and allow for retrofitting low costs.
 The Easybox cards are therefore used to add a classic on the system advanced features, including:
 
-#. Timing the ignition of the fan coil in order to ensure a homogeneous air conditioning of rooms
-#. Timing the switching off of devices, so as to minimize the wastage from forgetfulness.
-#. Collect data on the use of the devices so as to estimate the fuel consumption and the resulting savings, compared to the scenario of a classic system.
+#. Timing the ignition of the fan coil, in order to ensure the homogeneous air conditioning of the rooms.
+#. Timing the turning off of devices, in order to minimise the wastage from forgetfulness.
+#. Collect data on the use of the devices, in order to estimate the fuel consumption and the resulting savings, compared to the scenario of a classic system.
 
 Software/Plugins
 ----------------
@@ -37,7 +37,7 @@ Plugins used for the current system
 -----------------------------------
 
 #. Easybox boards control
-#. Harvester: storage of usage data on db
-#. Twilight: events based on sunrise and sunset times
-#. Chat: remote control, test controls and automation
+#. Harvester: Storage of usage data on db.
+#. Twilight: Events based on sunrise and sunset time.
+#. Chat: Remote control, test control and automation.
 #. Desktop Frontend

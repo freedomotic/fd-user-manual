@@ -2,18 +2,22 @@
 PAss Private Assisted House
 ===========================
 
-The team, headed by dott. Francesco De Angelis is working together with INRCA and Regione Marche, on a complete platform that integrates and coordinates home automation, telemedicine solutions and smart objects in the same house. A "smart house" meta-model was developed as a result of a multidisciplinary collaboration between University of Camerino (architecture and computer science), Rehabilitation Institute Santo Stefano (http://www.sstefano.it/) and many manufactorers located in Regione Marche that produce hardware, telemedicine devices and also everyday objects that aims to make "smart" with some form of integration of sensors/actuators.
+The PAss team is headed by dott(Francesco De Angelis), who is working together with INRCA and Regione Marche, on a complete platform that integrates and coordinates home automation, telemedicine solutions and smart objects in the same house.
 
-Freedomotic was chosen as the platform for integration of domestic smart objects (sensors and actuators) in the home environment. These objects can communicate through a home gateway using JSON payload carried on MQTT.
+A "smart house" meta-model is being developed as a result of a multidisciplinary collaboration team of the University of Camerino (architecture and computer science), the Rehabilitation Institute Santo Stefano (http://www.sstefano.it/) and many manufacturers located in Regione Marche, Italy(https://www.google.pt/maps/place/Marche,+Italy). These manufacturers produce hardware, mainly telemedicine devices and also everyday objects are being trasformed into "smart devices" with some form of integration with sensors/actuators.
 
-This is for a dual purpose:
+Freedomotic was chosen as the platform for integration of domestic smart objects (sensors and actuators) in the home environment. These objects can communicate through a home gateway using a JSON payload carried on MQTT.
 
-#. generating local in house events to be fed to Freedomotic and create automations according to the rules if-then-else
-#. carrying the same data to an internet data center that integrates house-related information with telemedicine data, and implements ad-hoc algorithms - with respect to the disability/disease of those who live in the house- that realyze a remote control mechanism and can lift alerts to a caregiver or fire in-house automations from outside.
+This architecture was designed for a dual purpose:
 
-For example one of the partners is developing an app that uses Bayesian networks to control the "normal" patients' behavior. One of the project aims is about developing a mobile UI to be allocated to health care professionals and patients themselves. 
+#. generating in local, house events to be fed to Freedomotic and create automations according to the rules if-then-else
+#. carrying the  data to an internet data center that integrates house-related information with telemedicine data. This data is then treated by ad-hoc algorithms -  which knowing the disability/disease of those who live in the house- can trigger a remote control mechanism and lift alerts to a caregiver . I can be also used to fire in-house automations from outside.
 
-This should simplify as much as possible the daily operations inside the house. It is not intended, at the time, to let users configure their house environment and its devices.
+As an example, one of our partners, is developing an app that uses Bayesian networks to control the "normal" patients' behavior. This project aims to develop a mobile UI to be allocated to health care professionals and patients themselves. 
+
+This should simplify as much as possible the daily operations inside the house.
+
+Warning : It is not intended, at the time, to let users configure their house environment and its devices.
 
 Resources
 ---------

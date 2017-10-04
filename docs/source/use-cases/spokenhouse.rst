@@ -4,7 +4,7 @@ Spoken House
 
 **Spoken House** is a mobile app for users with impaired vision and / or hearing, developed in collaboration between Informatici senza Frontiere and the University of Sannio. 
 
-Its interface to 4 corners, along with an electronic voice guidance, allows easy use and an easy navigation within the application.
+Its interface with 4 corners, along with an electronic voice guidance, allows easy use and an easy navigation within the application.
 
 .. figure:: images/spokenhouse.jpg
     :width: 600px
@@ -21,7 +21,7 @@ Features
 * Interface divided into 4 equal parts, each corresponding to a corner of the device
 * Increase or decrease the font size of text displayed
 * Change the default theme with other combinations of colors, high contrast
-* Activate the electronic voice as an aid to navigation
+* Activate the electronic voice to aid in navigation
 * Activate encoding messages in Morse code through the vibration
 * Activate encoding messages marked in Italian
 * View the video application help in sign language
@@ -37,8 +37,8 @@ In order to properly connect the smartphone to Freedomotic, during the first acc
 * ip address of the machine running Freedomotic
 * username and password used to access Freedomotic
 
-The latest addition to Spoken House is the voice control! After activating this mode in the settings, by pressing any hardware button volume control, you will be sent a voice command application to handle more comfortably objects in the framework. This mode allows for the moment only the on / off or opening / closing of some objects. The typical sentence structure recognized by the application requires a verb as the first word (eg "open" or "turn on") and then the name of the object to be controlled, as well as the name of the room and the floor where is located (complete example: Open the door of the living room of the first floor).
-It is cross platform mobile application that allows people with visual impairments easier management of devices in your home through their home automation control.
+The latest addition to Spoken House is the voice control! After activating this mode in the settings by pressing any hardware button volume control, you will be sent a voice command application to handle more comfortably objects in the framework. This mode allows, for the moment, only the on / off or opening / closing of some objects. The typical sentence structure recognized by the application requires a verb as the first word (eg "open" or "turn on") and then the name of the object to be controlled, as well as the name of the room and the floor where is located (complete example: Open the door of the living room of the first floor).
+It is a cross platform mobile application that allows people with visual impairments easier management of devices in their home through their home automation control.
 
 Resources
 ---------

@@ -8,8 +8,6 @@ These APIs are implemented by :doc:`RestAPIv3 <../plugins/restapiv3>` plugin.
 
 Start Freedomotic and open in your browser the url http://localhost:9111/ to test them.
 
-Alternatively you can try our `public demo <http://api.freedomotic.com:9111/>`_ (username: **admin**; password: **admin**)
-
 Swagger UI Example
 
 

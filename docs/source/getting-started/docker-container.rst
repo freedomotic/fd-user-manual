@@ -21,7 +21,6 @@ For tech details please go to https://hub.docker.com/r/freedomotic/freedomotic/.
    
    "latest","x86_64","","points to the last dailybuild"
    "dailybuild","x86_64","","unstable"
-   "alpine","x86_64","","small and secure"
    "armhf","ARMv7","Raspberry Pi v1-2",""
    "arm64","ARMv8","Raspberry Pi v3, Odroid C2",""
 

@@ -1,7 +1,5 @@
-Docker container (experimental)
-===============================
-
-For those of you willing to try Freedomotic dailybuild inside a Docker environment, we just created a demo container with some simple usage instructions.
+Docker container
+================
 
 Given you have Docker already installed on your machine you can start the container with the following instruction
  
@@ -10,20 +8,62 @@ Given you have Docker already installed on your machine you can start the contai
       docker run -d --name=freedomotic -p 9111:9111 -p 8090:8090 freedomotic/freedomotic
      
 
-After a few seconds RESTapi interface will be available on port 9111 and the web client on port 8090 of the host machine. 
-For tech details please go to https://hub.docker.com/r/freedomotic/freedomotic/.
+After a few seconds RestAPI interface will be available on port 9111 and the web client on port 8090 of the host machine. 
+So point your browser to http://ip-docker-server:9111 or to http://ip-docker-server:8090.
 
-.. note:: The latest version is mapped to [dailybuild] tag. If you want to try another version please specify the correct tag as in the following table. 
+
+.. note:: The latest version is mapped to **[dailybuild]** tag. If you want to try another version please specify the correct tag as in the following table. 
 
 .. csv-table:: Docker images
    :header: "Tag", "Architecture", "Hw platforms", "Notes"
    :widths: 10, 30, 40, 20
    
-   "latest","x86_64","","points to the last dailybuild"
-   "dailybuild","x86_64","","unstable"
+   "latest","x86_64","Windows, Linux, Mac OS X","points to the last dailybuild"
+   "dailybuild","x86_64","Windows, Linux, Mac OS X",""
    "armhf","ARMv7","Raspberry Pi v1-2",""
    "arm64","ARMv8","Raspberry Pi v3, Odroid C2",""
 
+
+Container health check
+----------------------
+
+Our images use Docker helth check feature to ensure the application is running correctly.
+Every 5 minutes Docker verifies if the web client is up and stops the container with a code error if it doesn't receive a response
+by 3 seconds. The first check starts after 10 seconds.
+
+
+
+Data persistence
+----------------
+
+Docker, by default, doesn’t come with persistent storage so when the container is removed all data is lost.
+To fix the problem you need to use Docker volumes.
+
+Our images expose two volumes: **["/srv/freedomotic/data"]** and **["/srv/freedomotic/plugins"]**. 
+
+The first contains all data
+(commands, triggers, reactions, environments and things) and correspond to the *"data"* folder in the package release.
+The second contains all the plugins (executables and configuration files) and corrispond to the same named folder in the package
+release
+
+Bind mount
+**********
+
+The most simple solution is to mount a folder on the host machine and map it to one of the previous volume.
+
+For example if your local Linux folder is *"/home/freedomotic-data"* you have to copy all the files from *"data"* folder included in the 
+package release and start the container in this way
+
+.. code:: 
+      
+      docker run -d --name=freedomotic -p 9111:9111 -p 8090:8090 -v /home/freedomotic-data:/srv/freedomotic/data  freedomotic/freedomoti
+
+So if you remove the container all data is saved on the host.
+
+Docker Hub
+----------
+
+All the official images are hosted on `Docker Hub <https://hub.docker.com/r/freedomotic/freedomotic/>`_.
 
 On next days we'll try to test P2P feature in a Docker environment with (at least) two Freedomotic instances. 
 If you think there may be more interesting usage scenarios for such containers, just share!

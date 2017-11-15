@@ -56,9 +56,62 @@ package release and start the container in this way
 
 .. code:: 
       
-      docker run -d --name=freedomotic -p 9111:9111 -p 8090:8090 -v /home/freedomotic-data:/srv/freedomotic/data  freedomotic/freedomoti
+      docker run -d --name=freedomotic -p 9111:9111 -p 8090:8090 -v /home/freedomotic-data:/srv/freedomotic/data  freedomotic/freedomotic
 
 So if you remove the container all data is saved on the host.
+
+Data volumes
+************
+
+This solution is a little more complicated but very useful if you want to share data with other containers inside a cluster. 
+
+PD: the volume isn't cancelled if you remove the container.
+
+Here a step by step guide:
+
+
+* Create a new volume named **"FreedomoticVolume"**
+
+.. code:: 
+      
+      docker volume create --name FreedomoticVolume
+      
+* Create a temporary container to copy the data. It's based on a minimal image (busybox) and mounts the volume under the path *"/data"*
+
+.. code:: 
+      
+      docker create -v FreedomoticVolume:/data --name temp busybox
+     
+* Download a Freedomotic package or reuse an existing installation. In every case you need to move to the *"data"* folder and copy its content inside the Docker volume. In order to do this we use **"temp"** container previously created
+
+.. code:: 
+      
+      docker cp . temp:/data
+      
+* Remove **"temp"** container
+
+.. code:: 
+      
+      docker rm temp
+      
+* Start Freedomotic container using **"FreedomoticVolume"**
+
+
+.. code::
+
+      docker run -d --name freedomotic -v FreedomoticVolume:/srv/freedomotic/data -p 9111:9111 -p 8090:8090 freedomotic/freedomotic
+
+In case of problems you can take a look at the logs with
+
+.. code::
+  
+      docker logs freedomotic
+
+Backup
+******
+
+TODO
+
 
 Docker Hub
 ----------

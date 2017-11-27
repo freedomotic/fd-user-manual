@@ -12,7 +12,7 @@ Sure, follow :doc:`these instructions<../getting-started/installation>`
 
 What version of Java do I need to run Freedomotic?
 --------------------------------------------------
-Freedomotic can run on JDK version 7+.
+Freedomotic can run on JDK version 8+.
 
 What tecnologies / tools are used?
 ----------------------------------
@@ -20,7 +20,8 @@ Freedomotic adopts open source tecnologies for development and project managemen
 
 I need help. How?
 -----------------
-First of all consult this documentation. If you are a developer you can subscribe our technical mailing list (https://groups.google.com/forum/#!forum/freedom-domotics)
+First of all consult this documentation. If you are a developer you can subscribe our technical mailing list (https://groups.google.com/forum/#!forum/freedom-domotics). 
+Italian developers can join https://groups.google.com/forum/#!forum/freedomotic-it
 
 Can I use Freedomotic in commercial projects?
 ---------------------------------------------
@@ -30,4 +31,4 @@ Freedomotic is released under GNU GPL 2 license, both for core and for java plug
 
 How to run Freedomotic headless (server mode with no GUI)
 ---------------------------------------------------------
-In Freedomotic also GUIs are plugins. Freedomotic is shipped with a basic desktop GUI plugin installed into *FREEDOMOTIC_ROOT/plugins/devices/frontend-java* folder. Just move the **frontend-java** folder away from there and restart Freedomotic without any GUI.
+In Freedomotic GUIs are plugins. Freedomotic is shipped with a basic desktop GUI plugin installed into *FREEDOMOTIC_ROOT/plugins/devices/frontend-java* folder. Just move the **frontend-java** folder away from there and restart Freedomotic without any GUI.

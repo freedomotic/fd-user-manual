@@ -33,7 +33,7 @@ Post installation steps:
 * restart Freedomotic
 
 Usage
-=====
+-----
 In order to save an event on db you have to 'intercept' it. This is easy with the built-in Reaction mechanism in Freedomotic.
 
 A basic Reaction is provided alongside the plugin, and it is made up by:

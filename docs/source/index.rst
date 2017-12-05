@@ -79,6 +79,7 @@ Contents:
    Google Calendar Events <plugins/google-calendar>
    Harvester <plugins/harvester>
    HWg-STE Ethernet thermometer <plugins/hwg-ste>
+   InfluxDB Persistence <plugins/influxdb>
    IpCamera Motion <plugins/ipcamera-motion>
    GCE Electronics IPX800 <plugins/ipx800>
    KMTronic USB Relay <plugins/kmtronic-usb-relay>

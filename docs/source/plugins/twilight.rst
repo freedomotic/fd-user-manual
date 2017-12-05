@@ -2,7 +2,7 @@
 Twilight - Sunset and sunrise alerts
 ====================================
 
-**Description**: This plugin sends events related to Sunrise and Sunset time for the configured lat/long
+**Description**: This plugin sends events related to Sunrise and Sunset time for the configured latitude/longitude.
 
 **Type:**  - **Categories:** Utilities, Weather
 
@@ -14,13 +14,14 @@ Twilight - Sunset and sunrise alerts
 
 Overview
 --------
-This plugin sends events related to Sunrise and Sunset time for the configured lat/long.
+This plugin sends events related to Sunrise and Sunset time for the configured latitude/longitude. It's based on OpenWeatherMap 
+and EarthTools providers.
 
 
 Configuration
 -------------
 
-In the file manifest you have to set only the following properties.
+In the manifest file you have to set the following properties:
 
 .. csv-table:: Parameters
    :header: "Parameter", "Meaning"
@@ -28,6 +29,8 @@ In the file manifest you have to set only the following properties.
    
    "lat","latitude"
    "log","longitude"
+
+By default the plugin uses OpenWeatherMap provider. If you want to use EarthTools you have to set it in ``<property name="provider" value="earthtools"/>``.
 
 Events are populated with the following properties
 

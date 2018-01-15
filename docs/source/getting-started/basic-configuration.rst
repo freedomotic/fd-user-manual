@@ -14,7 +14,7 @@ These properties are used to start the framework so **don't change the default v
 * **KEY_BROKER_URL [vm\://localhost?persistent\=false]**: ActiveMQ broker url
 * **KEY_MESSAGES_TTL [5000]**: messages time to live
 * **KEY_DISCARD_INVALID_DESTINATIONS [true]**:
-* **INSTANCE_ID [random uuid]**: uuid of Freedomotic instance
+* **KEY_INSTANCE_ID [random uuid]**: uuid of Freedomotic instance
 
 
 Internationalization
@@ -34,7 +34,7 @@ Logging
 Plugins Marketplace
 ~~~~~~~~~~~~~~~~~~~
 
-* **CACHE_MARKETPLACE_ON_STARTUP [false]**: enable/disable plugins caching on startup
+* **KEY_CACHE_MARKETPLACE_ON_STARTUP [false]**: enable/disable plugins caching on startup
 * **KEY_ENABLE_PLUGINS_DOWNLOAD [true]**: enable/disable plugins download from marketplace
 
 
@@ -44,8 +44,8 @@ Periodic data saving
 
 Basically all data are persisted when Freedomotic stopped. You can enable a periodic data saving at a fixed time interval.
 
-* **SAVE_DATA_PERIODICALLY [false]**: enable/disable periodically data saving
-* **DATA_SAVING_INTERVAL [15]**: data saving interval in minutes
+* **KEY_SAVE_DATA_PERIODICALLY [true]**: enable/disable periodically data saving
+* **KEY_DATA_SAVING_INTERVAL [15]**: data saving interval in minutes
    
    
 Persistence
@@ -58,7 +58,7 @@ Persistence
 P2P
 ~~~
 
-* **P2P_CLUSTER_NAME [freedomotic-commander]**: cluster name used to identify the instance in a p2p network
+* **KEY_P2P_CLUSTER_NAME [freedomotic-commander]**: cluster name used to identify the instance in a p2p network
 
 Resources
 ~~~~~~~~~

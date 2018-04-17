@@ -27,8 +27,8 @@ Logging
 ~~~~~~~
 
 * **KEY_SAVE_LOG_TO_FILE [OFF]**: enable/disable logging to file (for more details :doc:`click here <../need-help/logging>`)
-* **ADMIN_SENDING_ADDRESS [issue.reporter@freedomotic.com]**: sending email address of log reports (don't change it)
-* **ADMIN_RECIPIENT_ADDRESS [mauro@freedomotic.com]**: recipient address for log (don't change it if you want to send the log to the Freedomotic team)
+* **KEY_ADMIN_SENDING_ADDRESS [issue.reporter@freedomotic.com]**: sending email address of log reports (don't change it)
+* **KEY_ADMIN_RECIPIENT_ADDRESS [mauro@freedomotic.com]**: recipient address for log (don't change it if you want to send the log to the Freedomotic team)
 
 
 Plugins Marketplace

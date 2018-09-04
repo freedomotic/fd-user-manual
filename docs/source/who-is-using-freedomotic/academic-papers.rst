@@ -27,4 +27,6 @@ Academic papers & thesis
 * Lombardi, M. (2017). *"Componentistica hardware e software coordinata da smartphone e destinata alla domotica per utenti con disabilità"*, Master Thesis, Università di Napoli "Federico II" (Italy). `Slides <https://www.slideshare.net/freedomotic/componentistica-hardware-e-software-coordinata-da-smartphone-e-destinata-alla-domotica-per-utenti-con-disabilit>`_ 
    
 * Viscomi, S.E. (2017). *"Architettura hardware/software coordinata da smartphone e destinata alla domotica per utenti con disabilità"*, Master Thesis, Università di Napoli "Federico II" (Italy). `Slides <https://www.slideshare.net/freedomotic/architettura-hardwaresoftware-coordinata-da-smartphone-e-destinata-alla-domotica-per-utenti-con-disabilit>`_ 
+
+* Ramoly, N. (2018). *"Contextual integration of heterogeneous data in an open and opportunistic smart environment : application to humanoid robots"*, Master Thesis, Université Paris-Saclay" (France). `Thesis <https://tel.archives-ouvertes.fr/tel-01848765/document>`_ 
    

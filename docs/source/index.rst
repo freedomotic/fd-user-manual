@@ -120,7 +120,8 @@ Contents:
    :maxdepth: 2
 
    Jfrontend <frontends/jfrontend>
-   Polymer web client <frontends/polymer-webclient>   
+   Polymer web client <frontends/polymer-webclient>
+   Vue web client <frontends/vue-webclient>
    
 .. toctree::
    :caption: Need help?
@@ -137,7 +138,7 @@ Contents:
    New features, upgrades and bug fixes <releases/content-releases>
 
 .. toctree::
-   :caption: Contributor guide
+   :caption: Contributing
    :maxdepth: 2
 
    How to contribute <the-project/how-to-contribute>

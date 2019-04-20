@@ -18,6 +18,7 @@ If you want to download a plugin from Marketplace you must follow some simple st
     <iframe width="560" height="315" src="https://www.youtube.com/embed/DZJMxJds2H4" frameborder="0" allowfullscreen></iframe>    </embed>
     </embed>
 
+.. note:: This feature is temporarly **disabled**.  
 
 Install manually
 ----------------

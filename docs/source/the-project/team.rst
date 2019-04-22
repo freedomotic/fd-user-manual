@@ -9,15 +9,15 @@ The Freedomotic team consists of a group of enthusiasts who work on the framewor
 +--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
 | Name                                                         | From    | Duties                                                                                                        | 
 +==============================================================+=========+===============================================================================================================+
-| `Enrico Nicoletti <mailto:info@freedomotic.com>`_            | Italy   | Project Founder, Project vision, Core Developer                                                               |
+| `Enrico Nicoletti <mailto:info@freedomotic-iot.com>`_            | Italy   | Project Founder, Project vision, Core Developer                                                               |
 +--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
-| `Mauro Cicolella <mailto:mauro@freedomotic.com>`_            | Italy   | Community Manager, Automation Protocols Integration, Marketing and end-users, Communication, Quality Assurance|
+| `Mauro Cicolella <mailto:info@freedomotic-iot.com>`_            | Italy   | Community Manager, Automation Protocols Integration, Marketing and end-users, Communication, Quality Assurance|
 +--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
-| `Gabriel Pulido de Torres <mailto:gabriel@freedomotic.com>`_ | Spain   | APIs Engineer, Mobile Platform Developer, Product Strategist, Technical Research, Development Workflow Manager|                                                                                                            
+| `Gabriel Pulido de Torres <mailto:info@freedomotic-iot.com>`_ | Spain   | APIs Engineer, Mobile Platform Developer, Product Strategist, Technical Research, Development Workflow Manager|                                                                                                            
 +--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
-| `Alberto Mengoli <alberto@freedomotic.com>`_                 | Italy   | .Net Frontend Development, Testing, Usability feedback                                                        |   
+| `Alberto Mengoli <info@freedomotic-iot.com>`_                 | Italy   | .Net Frontend Development, Testing, Usability feedback                                                        |   
 +--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
-| `Matteo Mazzoni <matteo@freedomotic.com>`_                   | Italy   | Core Developer, APIs Engineer, Plugins Developer, Technical Research                                          |    
+| `Matteo Mazzoni <info@freedomotic-iot.com>`_                   | Italy   | Core Developer, APIs Engineer, Plugins Developer, Technical Research                                          |    
 +--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
 
    

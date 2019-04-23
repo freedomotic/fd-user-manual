@@ -4,24 +4,15 @@ Team
 
 The Freedomotic team consists of a group of enthusiasts who work on the framework on a day to day basis.
 
-**Main contributors**
+.. csv-table:: Main contributors
+   :header: "Name", "From", "Duties"
+   :widths: 25, 10, 15
 
-+--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
-| Name                                                         | From    | Duties                                                                                                        | 
-+==============================================================+=========+===============================================================================================================+
-| Enrico Nicoletti            | Italy   | Project Founder, Project vision, Core Developer                                                               |
-+--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
-| Mauro Cicolella            | Italy   | Community Manager, Automation Protocols Integration, Marketing and end-users, Communication, Quality Assurance|
-+--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
-| Gabriel Pulido de Torres | Spain   | APIs Engineer, Mobile Platform Developer, Product Strategist, Technical Research, Development Workflow Manager|                                                                                                            
-+--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
-| Alberto Mengoli                 | Italy   | .Net Frontend Development, Testing, Usability feedback                                                        |   
-+--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
-| Matteo Mazzoni                   | Italy   | Core Developer, APIs Engineer, Plugins Developer, Technical Research                                          |    
-+--------------------------------------------------------------+---------+---------------------------------------------------------------------------------------------------------------+
-
-   
-
+   "Enrico Nicoletti","Italy","Project Founder, Project vision, Core Developer"    
+   "Mauro Cicolella","Italy","Community Manager, Automation Protocols Integration, Marketing and end-users, Communication, Quality Assurance"
+   "Gabriel Pulido de Torres","Spain","APIs Engineer, Mobile Platform Developer, Product Strategist, Technical Research, Development Workflow Manager"                                                                                                            
+   "Alberto Mengoli","Italy",".Net Frontend Development, Testing, Usability feedback"                                                     
+|  "Matteo Mazzoni","Italy","Core Developer, APIs Engineer, Plugins Developer, Technical Research"
    
 .. csv-table:: Past members
    :header: "Name", "From", "Duties"

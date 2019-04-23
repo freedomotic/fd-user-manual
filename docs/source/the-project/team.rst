@@ -12,7 +12,7 @@ The Freedomotic team consists of a group of enthusiasts who work on the framewor
    "Mauro Cicolella","Italy","Community Manager, Automation Protocols Integration, Marketing and end-users, Communication, Quality Assurance"
    "Gabriel Pulido de Torres","Spain","APIs Engineer, Mobile Platform Developer, Product Strategist, Technical Research, Development Workflow Manager"                                                                                                            
    "Alberto Mengoli","Italy",".Net Frontend Development, Testing, Usability feedback"                                                     
-|  "Matteo Mazzoni","Italy","Core Developer, APIs Engineer, Plugins Developer, Technical Research"
+   "Matteo Mazzoni","Italy","Core Developer, APIs Engineer, Plugins Developer, Technical Research"
    
 .. csv-table:: Past members
    :header: "Name", "From", "Duties"

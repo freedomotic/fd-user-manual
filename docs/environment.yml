@@ -6,4 +6,4 @@ dependencies:
     - sphinx==1.5.6
     - recommonmark
     - nbsphinx
-    - jupyter_sphinx_theme=0.0.6
+    - jupyter_sphinx_theme==0.0.6

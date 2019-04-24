@@ -74,4 +74,7 @@ The following sketch must be uploaded to your arduino board. It's very simple: w
         digitalWrite(pin, LOW);
       }
 
+Download
+--------
+`Download plugin <https://bintray.com/freedomotic/freedomotic-plugins/Arduino_Serial_Communication>`_
  

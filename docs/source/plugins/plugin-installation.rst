@@ -22,4 +22,5 @@ If you want to download a plugin from Marketplace you must follow some simple st
 
 Install manually
 ----------------
-
+Go to the plugin page and download the file. The **.device** is a compressed archive so you can extract it simply. 
+There are two types of plugins: **devices** and **objects**.

@@ -77,4 +77,10 @@ The following sketch must be uploaded to your arduino board. It's very simple: w
 Download
 --------
 `Download plugin latest version <https://bintray.com/freedomotic/freedomotic-plugins/download_file?file_path=arduinousb-5.6.x-3.0_0.device>`_
+
+Source code
+-----------
+`GitHub repository <https://github.com/freedomotic/freedomotic/tree/master/plugins/devices/arduinousb>`_
+
+
  

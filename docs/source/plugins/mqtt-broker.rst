@@ -45,4 +45,10 @@ Video
     <iframe width="420" height="315" src="https://www.youtube.com/embed/sE9sltct_iE" frameborder="0" allowfullscreen></iframe>  </embed>
     </embed>
     
-    
+Download
+--------
+`Download plugin latest version <https://bintray.com/freedomotic/freedomotic-plugins/download_file?file_path=mqtt-broker-5.6.x-3.0.device>`_
+
+Source code
+-----------
+`GitHub repository <https://github.com/freedomotic/freedomotic/tree/master/plugins/devices/mqtt-broker>`_

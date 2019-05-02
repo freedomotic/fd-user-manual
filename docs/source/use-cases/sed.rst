@@ -2,7 +2,7 @@
 SED Special Electronic Design
 =============================
 
-SED Limited society environment management
+[SED](http://www.sednet.com/) Limited society environment management
 
 #. Remote access
 #. Automations aimed at limited consumption

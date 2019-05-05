@@ -2,7 +2,7 @@
 PAss Private Assisted House
 ===========================
 
-The PAss team is headed by dott(Francesco De Angelis), who is working together with INRCA and Regione Marche, on a complete platform that integrates and coordinates home automation, telemedicine solutions and smart objects in the same house.
+The PAss team is headed by dr. Francesco De Angelis, who is working together with INRCA and Regione Marche, on a complete platform that integrates and coordinates home automation, telemedicine solutions and smart objects in the same house.
 
 A "smart house" meta-model is being developed as a result of a multidisciplinary collaboration team of the University of Camerino (architecture and computer science), the Rehabilitation Institute Santo Stefano (http://www.sstefano.it/) and many manufacturers located in Regione Marche, Italy(https://www.google.pt/maps/place/Marche,+Italy). These manufacturers produce hardware, mainly telemedicine devices and also everyday objects are being trasformed into "smart devices" with some form of integration with sensors/actuators.
 

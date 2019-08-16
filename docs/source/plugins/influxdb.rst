@@ -82,6 +82,12 @@ In Jfrontend go to Automations -> Manage Automations and select one of the follo
 
 and write in the Command text field ``Save data on InfluxDB``. Confirm and press OK button.
 
+Download
+--------
+`Download plugin latest version <https://bintray.com/freedomotic/freedomotic-plugins/download_file?file_path=influxdb-persistence-5.6.x-3.0.device>`_
 
+Source code
+-----------
+`GitHub repository <https://github.com/freedomotic/freedomotic/tree/master/plugins/devices/influxdb>`_
 
 

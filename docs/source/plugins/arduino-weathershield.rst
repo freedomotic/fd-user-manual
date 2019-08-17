@@ -2,7 +2,7 @@
 Arduino WeatherShield
 =====================
 
-**Description**: With this plugin Freedomotic can communicate with Arduino WeatherShield by Ethermania.com.
+**Description**: Communicate with Arduino WeatherShield by Ethermania.com
 
 **Type:**  - **Categories:** 
 
@@ -37,15 +37,20 @@ With this board you can read the temperature behavior of any thermometer device 
 
 For this example we use a thermometer object:
 
-Right click on the thermometer object in the environment to show its configuration panel
-Change the property "protocol" to "ArduinoWeatherShield"
-Change the property "address" to a string composed of HTTP_BOARD_URL:HTTP_PORT. For example "192.168.0.150:80:T" identifies the board listening on 192.168.0.150:80 for temperature values (use "P" for pressure and "H" for humidity). 
-Under "temperature" (in Data Source Configuration) select the trigger called "Arduino WeatherShield reads temperature change"
- The plugin is also able to read any humidity and pressure change.
+* Right click on the thermometer object in the environment to show its configuration panel
+* Change the property "protocol" to "ArduinoWeatherShield"
+* Change the property "address" to a string composed of HTTP_BOARD_URL:HTTP_PORT. For example "192.168.0.150:80:T" identifies the board listening on 192.168.0.150:80 for temperature values (use "P" for pressure and "H" for humidity). 
+* Under "temperature" (in Data Source Configuration) select the trigger called "Arduino WeatherShield reads temperature change"
 
-From Freedomotic 5.6 version it uses autodiscovering feature so 3 new things (thermometer, barometer and hygrometer) are added and configured automatically.
+The plugin is also able to read any humidity and pressure change.
+
+From 5.6 version Freedomotic uses autodiscovering feature so 3 new things (thermometer, barometer and hygrometer) are added and configured automatically.
+
+Download
+--------
+`Download plugin latest version <https://bintray.com/freedomotic/freedomotic-plugins/download_file?file_path=arduino-weathershield-5.6.x-3.0_0.device>`_
 
 Source code
 -----------
-Hosted [here](https://github.com/freedomotic/freedomotic/tree/master/plugins/devices/arduino-weathershield)
+`GitHub repository <https://github.com/freedomotic/freedomotic/tree/master/plugins/devices/arduino-weathershield>`_
 

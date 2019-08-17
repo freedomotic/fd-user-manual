@@ -1,7 +1,7 @@
 Arduino Remote Controller
 =========================
 
-**Description**: This plugin uses an Arduino board to receive IR signals from a remote controller and execute Freedomotic commands
+**Description**: Use an Arduino board to receive IR signals from a remote controller and execute Freedomotic commands
 
 **Type:**  - **Categories:** Arduino, Automation Protocols, Internet of Things
 
@@ -133,3 +133,12 @@ Video
 
     <embed>
     <iframe width="420" height="315" src="https://www.youtube.com/embed/W_j8nUn7Puw" frameborder="0" allowfullscreen></iframe>  </embed>
+
+Download
+--------
+`Download plugin latest version <https://bintray.com/freedomotic/freedomotic-plugins/download_file?file_path=arduino-remote-controller-5.6.x-3.0_0.device>`_
+
+Source code
+-----------
+`GitHub repository <https://github.com/freedomotic/freedomotic/tree/master/plugins/devices/arduino-remote-controller>`_
+

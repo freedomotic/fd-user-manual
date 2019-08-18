@@ -69,3 +69,11 @@ login to https://dev.twitter.com/apps with your new twitter "house account"
         <property name="OAuthAccessTokenSecret" value="**PASTE OAuthAccessTokenSecret HERE**"/>
     </properties>
  </config>
+
+Download
+--------
+`Download plugin latest version <https://bintray.com/freedomotic/freedomotic-plugins/download_file?file_path=twitter4f-5.6.x-3.0_0.device>`_
+
+Source code
+-----------
+`GitHub repository <https://github.com/freedomotic/freedomotic/tree/master/plugins/devices/twitter>`_

@@ -86,3 +86,11 @@ Create an automation example
 Soon we'll add more examples and info about messages customization.
 
 .. note:: The plugin is not completed. If you want to follow the development and contribute or submit your comments please go to https://github.com/freedomotic/freedomotic/issues/224
+
+Download
+--------
+`Download plugin latest version <https://bintray.com/freedomotic/freedomotic-plugins/download_file?file_path=telegram-bot-5.6.x-3.0_0.device>`_
+
+Source code
+-----------
+`GitHub repository <https://github.com/freedomotic/freedomotic/tree/master/plugins/devices/telegram-bot>`_

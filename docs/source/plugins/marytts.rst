@@ -63,3 +63,11 @@ By default the plugin uses an English female voice. You can customize it by down
    "English","Female","Already installed","<property name='voice-jar-file' value='voice-cmu-slt-hsmm-5.1.1.jar'/> <property name='voice' value='cmu-slt-hsmm'/>"
    "German","Male","http://mary.dfki.de/download/5.1/voice-bits3-hsmm-5.1.zip","<property name='voice-jar-file' value='voice-bits3-hsmm-5.1.jar'/> <property name='voice' value='bits3-hsmm'/>"
    "Italian","Female","http://mary.dfki.de/download/5.1/voice-istc-lucia-hsmm-5.1.zip","<property name='voice-jar-file' value='voice-istc-lucia-hsmm-5.1.jar'/> <property name='voice' value='istc-lucia-hsmm'/>"
+
+Download
+--------
+`Download plugin latest version <https://bintray.com/freedomotic/freedomotic-plugins/download_file?file_path=marytts-5.6.x-3.0_0.device>`_
+
+Source code
+-----------
+`GitHub repository <https://github.com/freedomotic/freedomotic/tree/master/plugins/devices/marytts>`_

@@ -84,3 +84,11 @@ If not present, add a line <property name=mobile" value="" /> after <property na
 Save and close
 
 Next time you run Freedomotic, Tom's ready to receive SMS notifications!
+
+Download
+--------
+`Download plugin latest version <https://bintray.com/freedomotic/freedomotic-plugins/download_file?file_path=push-5.6.x-3.0_0.device>`_
+
+Source code
+-----------
+`GitHub repository <https://github.com/freedomotic/freedomotic/tree/master/plugins/devices/push>`_

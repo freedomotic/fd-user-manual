@@ -93,3 +93,11 @@ and assign the trigger  ``HWg-STE reads humidity`` to **humidity** behavior.
     :figclass: align-center
 
     HWg-STE plugin data log
+    
+Download
+--------
+`Download plugin latest version <https://bintray.com/freedomotic/freedomotic-plugins/download_file?file_path=hwg-ste-5.6.x-3.0_0.device>`_
+
+Source code
+-----------
+`GitHub repository <https://github.com/freedomotic/freedomotic/tree/master/plugins/devices/hwg-ste>`_

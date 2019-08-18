@@ -93,3 +93,11 @@ For this example we use a light thing:
 * Under **turn on** (in **Actions**) select the command called ``Turn on Relay on Ipx800 board``
 * Under **turn off** (in **Actions**) select the command called ``Turn off Relay on Ipx800 board``. Now the plugin is able to read any relay status change and update the object one.
 * Under **powered** (in **Data Sources**) select the command called ``IPX800 board reads a state change``
+
+Download
+--------
+`Download plugin latest version <https://bintray.com/freedomotic/freedomotic-plugins/download_file?file_path=ipx800-5.6.x-3.0_0.device>`_
+
+Source code
+-----------
+`GitHub repository <https://github.com/freedomotic/freedomotic/tree/master/plugins/devices/ipx800>`_

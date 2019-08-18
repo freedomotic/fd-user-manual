@@ -40,3 +40,11 @@ Use cases
 ---------
 
 * https://www.emmecilab.net/gestione-di-un-appartamento-con-freedomotic/ (in Italian)
+
+Download
+--------
+`Download plugin latest version <https://bintray.com/freedomotic/freedomotic-plugins/download_file?file_path=phwswethv2-5.6.x-3.0_0.device>`_
+
+Source code
+-----------
+`GitHub repository <https://github.com/freedomotic/freedomotic/tree/master/plugins/devices/phwswethv2>`_

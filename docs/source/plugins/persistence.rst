@@ -1,7 +1,7 @@
 Persistence
 ===========
 
-**Description**: 
+**Description**: Save events and commands on a db Cassandra
 
 **Type:** Driver - **Categories:** Utilities
 

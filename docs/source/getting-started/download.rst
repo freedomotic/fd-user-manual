@@ -26,7 +26,10 @@ This is the currently **RECOMMENDED** versions for most users. You can also try 
 Dailybuilds
 -----------
 
-These releases are created daily by our Continuous Integration System on Jetbrains Teamcity. Try one of them if you want to be on the bleeding edge of Freedomotic development.
+These releases are created daily by our 
+`Continuous Integration System on Jetbrains Teamcity <https://teamcity.jetbrains.com/project.html?projectId=Freedomotic>`_. 
+
+Try one of them if you want to be on the bleeding edge of Freedomotic development.
 
 **These releases are unstable** so don't use them in production environments.
 

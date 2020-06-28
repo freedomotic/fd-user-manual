@@ -120,7 +120,6 @@ Contents:
    :maxdepth: 2
 
    Jfrontend <frontends/jfrontend>
-   Polymer web client <frontends/polymer-webclient>
    Vue web client <frontends/vue-webclient>
    
 .. toctree::

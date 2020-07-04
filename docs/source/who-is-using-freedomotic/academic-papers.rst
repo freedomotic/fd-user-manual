@@ -30,3 +30,4 @@ Academic papers & thesis
 
 * Ramoly, N. (2018). *"Contextual integration of heterogeneous data in an open and opportunistic smart environment : application to humanoid robots"*, Master Thesis, Université Paris-Saclay" (France). `Thesis <https://tel.archives-ouvertes.fr/tel-01848765/document>`_ 
    
+* Di Federico, G. (2020). *"The application of process mining in a simulated smart environment to derive sensors placing "*, Master Thesis, Università di Camerino (Italy). `Thesis <https://www.slideshare.net/freedomotic/the-application-of-process-mining-in-a-simulated-smart-environment-to-derive-sensors-placing>`_

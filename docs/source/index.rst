@@ -105,6 +105,7 @@ Contents:
    TTS Text to Speech <plugins/tts>
    Twilight - Sunset and sunrise alerts <plugins/twilight>
    Twitter4Freedomotic <plugins/twitter>
+   webserver <plugins/webserver>
    Zibase <plugins/zibase>
    Z-Wave <plugins/zwave>
  

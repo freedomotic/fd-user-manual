@@ -21,7 +21,6 @@ Contents:
    :maxdepth: 2
 
    Academic papers & thesis <who-is-using-freedomotic/academic-papers>
-   Thesis proposals<who-is-using-freedomotic/thesis-proposals>
    
 .. toctree::
    :caption: Use cases

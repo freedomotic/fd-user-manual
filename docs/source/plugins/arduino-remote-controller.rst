@@ -136,7 +136,7 @@ Video
 
 Download
 --------
-`Download plugin latest version <https://bintray.com/freedomotic/freedomotic-plugins/download_file?file_path=arduino-remote-controller-5.6.x-3.0_0.device>`_
+`Download plugin latest version <https://github.com/freedomotic/freedomotic-plugins-marketplace/raw/main/plugins/arduino-remote-controller-5.6.x.device>`_
 
 Source code
 -----------

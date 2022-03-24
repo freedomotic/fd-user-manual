@@ -48,7 +48,7 @@ From 5.6 version Freedomotic uses autodiscovering feature so 3 new things (therm
 
 Download
 --------
-`Download plugin latest version <https://bintray.com/freedomotic/freedomotic-plugins/download_file?file_path=arduino-weathershield-5.6.x-3.0_0.device>`_
+`Download plugin latest version <https://github.com/freedomotic/freedomotic-plugins-marketplace/raw/main/plugins/arduino-weathershield-5.6.x.device>`_
 
 Source code
 -----------

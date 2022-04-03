@@ -5,7 +5,7 @@ Given you have Docker already installed on your machine you can start the contai
  
 .. code:: 
       
-      docker run -d --name=freedomotic -p 9111:9111 -p 8090:8090 freedomotic/freedomotic
+      docker run -d --name=freedomotic -p 9111:9111 -p 8090:8090 ghcr.io/freedomotic/freedomotic-5.6.0:dailybuild
      
 
 After a few seconds RestAPI interface will be available on port 9111 and the web client on port 8090 of the host machine. 

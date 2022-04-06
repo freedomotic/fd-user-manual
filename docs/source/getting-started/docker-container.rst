@@ -20,8 +20,8 @@ So point your browser to http://ip-docker-server:9111 or to http://ip-docker-ser
    
    "latest","x86_64","Windows, Linux, Mac OS X","points to the last dailybuild"
    "dailybuild","x86_64","Windows, Linux, Mac OS X",""
-   "armhf","ARMv7","Raspberry Pi v1-2",""
-   "arm64","ARMv8","Raspberry Pi v3, Odroid C2",""
+   "arm32v7","ARMv7","Raspberry Pi v1-2",""
+   "arm64v8","ARMv8","Raspberry Pi v3, Odroid C2, Apple M1",""
 
 
 Container health check
